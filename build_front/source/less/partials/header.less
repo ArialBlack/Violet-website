@@ -1,0 +1,143 @@
+.header {
+  position: fixed;
+  left:0;
+  right:0;
+  top:0;
+  background-color: #38192a;
+  background-image: linear-gradient(to right, #1d0048 0%, #7048c0 50%, #1d0048 100%);
+  height:65px;
+  line-height: 65px;
+  z-index: 100;
+
+  .burger {
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    border-radius: 5px;
+    background: transparent;
+    outline: none!important;
+    border: 1px solid white;
+
+    &.active {
+      border-color: @red;
+
+      span {
+        background: @red;
+      }
+    }
+
+    span {
+      width: 20px;
+      height: 1px;
+      margin: 7px 5px;
+      background: white;
+      display: block;
+    }
+    
+    @media screen and (max-width:767px) {
+      display: none;
+    }
+  }
+
+  .burger-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #1d0048 0%, #7048c0 50%, #1d0048 100%);
+    border-top: 1px solid #952e48;
+
+    @media screen and (min-width: 992px) {
+      border-top: none;
+    }
+
+    @media screen and (max-width: 767px) {
+      .mob-to-burger {
+        border: 1px solid #952e48;
+      }
+    }
+  }
+
+  .contacts {
+    color:@white;
+    font-family:@ppr;
+    font-size:15px;
+
+    .devide-contacts {
+      font-size: 16px;
+
+      @media screen and (max-width: 520px) {
+        display: none;    
+      }
+    }
+
+    @media screen and (max-width: 520px) {
+      .contact-item {
+        display: block;
+        width: 100%;
+      }   
+    }
+    
+    @media screen and (max-width: 767px) {
+      line-height: 35px;    
+    }
+
+    a {
+      letter-spacing: 1px;
+      font-size: 15px;
+    }
+
+    span {
+      font-size: 12px;
+    }
+  }
+
+  .clients {
+    display: block;
+    padding: 2px 0;
+    width: 70px;
+    height: 65px;
+    margin: auto;
+
+    @media screen and (max-width: 991px) {
+      margin: inherit;
+    }
+
+    svg {
+      fill:#fff;
+      height: 65px;
+      margin-top: -2px;
+    }
+
+    //&:hover {
+    //  border-bottom: 1px solid;
+    //}
+  }
+
+  .lang {
+    a {
+      font-size:12px;
+      font-family: @ppt;
+      letter-spacing: 1.8px;
+
+      &.active, &:hover {
+        font-family:@ppr;
+      }
+
+      &:hover {
+        border-bottom:1px solid;
+      }
+    }
+
+    .divide {
+      background-color: #952e48;
+      margin:0 25px;
+      width:1px;
+      height: 65px;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+}

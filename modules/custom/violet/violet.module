@@ -1,0 +1,78 @@
+<?php
+
+/**
+* Implements hook_block_info().
+*/
+
+module_load_include('inc', 'violet', 'violet.adminmessages');
+
+function ggproject_menu(){
+    $items=array();
+
+    $items['admin/violet/labels'] = array(
+        'title' => 'Violet admin labels',
+        'description' => 'Admin labels',
+        'type' => MENU_NORMAL_ITEM,
+        'page callback' => 'drupal_get_form',
+        'page arguments' => array('violet_admin_labels_form'),
+        'access arguments' => array('access adminstration page'),
+        'access callback' => TRUE,
+    );
+
+    return $items;
+}
+
+function violet_block_info() {
+  $blocks = array();
+
+  $blocks['violet_admin_blocks'] = array(
+    'info' => t('Violet admin blocks'),
+  );
+
+  return $blocks;
+}
+
+/**
+* Implements hook_block_view().
+*/
+function ggproject_block_view($delta = '') {
+  $block = array();
+
+  switch ($delta) {
+    case 'violet_admin_blocks':
+      $block['subject'] = '';
+      $block['content'] = _violet_admin_block();
+      break;
+  }
+
+  return $block;
+
+}
+
+function violet_form_alter(&$form, &$form_state, $form_id) {
+
+    if ($form['#id'] == 'webform-client-form-2') {
+        $form['#submit'][] = '_client_submit_handler';
+    }
+}
+
+function _client_submit_handler(&$form, &$form_state) {
+    $form_state['redirect'] = '/thank-you';
+}
+
+function violet_webform_submission_insert($node, $submission) {
+    // Insert a record into a 3rd-party module table when a submission is added.
+    drupal_goto("/thank-you", array('external' => TRUE));
+}
+
+
+function ggproject_after_build($form, &$form_state) {
+   // $form['path']['pathauto'] = FALSE;
+  //  return ($form);
+}
+
+
+
+
+
+

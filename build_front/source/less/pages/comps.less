@@ -1,0 +1,141 @@
+.comps {
+  background-image: linear-gradient(72deg, #190048 0%, #8648c0 100%);
+
+  main {
+    position: relative;
+    padding-top: 330px;
+    padding-bottom: 100px;
+    overflow: hidden;
+
+    @media screen and (max-width: 991px) {
+      padding-top: 140px;
+    }
+
+    @media screen and (max-width: 767px) {
+    padding-top: 90px;
+    }
+
+    .svg-right-rect {
+      position: absolute;
+      fill: #351367;
+      width: 150%;
+      bottom: -50%;
+      left: -96%;
+      max-width: 2850px;
+      min-width: 2100px;
+    }
+    h1 {
+      font-family: @pps;
+      font-size: 40px;
+      letter-spacing: 4px;
+      padding-bottom: 140px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 24px;
+        padding-bottom: 50px;
+      }
+    }
+
+    h3 {
+      margin-top: 0;
+      font-family: @ppr;
+      font-size: 30px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 22px;
+      }
+    }
+
+    .row-comp-first {
+      padding-top: 120px;
+
+      @media screen and (max-width: 991px) {
+        padding-top: 60px;
+      }
+    }
+
+    .row-comp {
+      // display: flex;
+
+      // .col-md-3 {
+      //   flex-grow:1;
+      // }
+
+      .comp-block {
+        height:100%;
+        cursor: pointer;
+        min-height: 500px;
+        padding:25px 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: all .3s ease;
+
+        @media screen and (max-width: 991px) {
+          background: #ba0153;
+          margin: 20px 0;
+
+          .arrow-down {
+            display: none;
+          }
+
+          .comp-descr-hide {
+            color: rgba(255,255,255,1)!important;
+          }
+        }
+
+        &:hover {
+          background: #ba0153;
+          
+          .arrow-down {
+            display: none;
+          }
+          
+          .comp-descr-hide {
+            color: rgba(255,255,255,1);
+          }
+        }
+
+        .comp-title {
+          font-family: @ppr;
+          font-size: 18px;
+          text-transform: uppercase;
+          line-height: 2.2;
+          letter-spacing: 1px;
+        }
+
+        .comp-logo {
+          img {
+            height:55px;
+          }
+        }
+
+        .arrow-down {
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          margin: auto;
+          top: 270px;
+          background: url(../images/arrow-bottom-v.png) no-repeat;
+          background-size: contain;
+        }
+
+        .comp-descr-hide {
+          letter-spacing: 1px;
+          line-height: 1.8;
+          color: rgba(255,255,255,0);
+          transition: color .5s ease;
+
+          .comp-more {
+            display: block;
+            text-align: center;
+            font-family: @ppb;
+            padding-top: 40px;
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+.get-in-touch {
+  padding-top: 65px;
+  background-image: linear-gradient(72deg, #190048 0%, #8648c0 100%);
+
+  main {
+    padding-bottom: 100px;
+  }
+
+  h1 {
+    font-family: @pps;
+    font-size: 40px;
+    letter-spacing: 4px;
+    padding: 100px 0;
+
+    @media screen and (max-width: 767px) {
+      font-size: 32px;
+      padding: 50px 0;
+    }
+  }
+
+  .brief-info {
+    margin-left: 8.33333333%;
+    padding-bottom: 90px;
+
+    @media screen and (max-width: 767px) {
+      padding-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 30px;
+      letter-spacing: 2px;
+      padding-bottom: 10px;
+    }
+
+    p {
+      font-family: @ppi;
+      font-size: 24px;
+    }
+  }
+
+  .map-tabs {
+    position: relative;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 90px;
+
+    @media screen and (max-width: 767px) {
+      height: inherit;
+      padding-top: 30px;
+    }
+
+    .map {
+      width:60%;
+      float: left;
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+
+        &>ymaps {
+          height: 300px!important;
+        }
+      }
+    }
+
+    .tabs {
+      float: left;
+      width: 40%;
+      background-color: #20044f;
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+      }
+
+      ul {
+        padding:0;
+        margin:0;
+        float: left;
+        display: inline-block;
+        vertical-align: top;
+
+        @media screen and (max-width: 767px) {
+          display: block;
+          float: inherit;
+          width: 100%;
+        }
+
+        li {
+          list-style-type: none;
+          background-color: @red;
+          line-height: 50px;
+          height: 217.5px;
+          transform: rotate(-180deg);
+          writing-mode: tb-rl;
+          -webkit-transition: background-color .3s ease;
+          -moz-transition: background-color .3s ease ;
+          -ms-transition: background-color .3s ease ;
+          -o-transition: background-color .3s ease ;
+          transition: background-color .3s ease ;
+          text-align: center;
+          cursor: pointer;
+          
+          a {
+            display: block;
+          }
+
+          @media screen and (max-width: 767px) {
+            writing-mode: inherit;
+            transform: rotate(0deg);
+            height: inherit;
+            float: left;
+            width: 33.3333%;
+          }
+
+          @media screen and (max-width: 480px) {
+            width: 100%;
+            border-bottom: 1px solid #70123c;
+          }
+          
+          &:hover,
+          &.map-active {
+            background-color: darken(@red, 10);
+          }
+        }
+      }
+
+      .tab-content {
+        padding-left: 85px;
+
+        @media screen and (max-width: 767px) {
+          padding: 0 15px;
+          text-align: center;
+        }
+
+        h4 {
+          font-size: 18px;
+          text-transform: uppercase;
+          padding: 60px 0;
+
+          @media screen and (max-width: 480px) {
+            margin-top: 120px;
+          }
+        }
+
+        .map-block-text {
+          padding:10px 0;
+
+          h5 {
+            font-size: 18px;
+          }
+
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+
+      .tab {
+        display: none;
+      }
+
+      .tab-3 {
+        display: block;
+      }
+    }
+
+  }
+  h2 {
+    font-family: @ppb;
+    font-size: 48px;
+    letter-spacing: 4px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 767px) {
+      font-size: 36px;
+    }
+  }
+
+  .sub-title {
+    font-family: @pps;
+    font-size: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+  }
+
+  .container .block-text {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .form-block {
+    padding-right: 45px;
+
+    @media screen and (max-width: 767px) {
+      padding: 0;
+    }
+  }
+
+}

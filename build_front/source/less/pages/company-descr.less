@@ -1,0 +1,233 @@
+.company-descr {
+  background-image: linear-gradient(72deg, #190048 0%, #8648c0 100%);
+
+  .svg-right-rect {
+    position: absolute;
+    fill: #351367;
+    width: 180%;
+    bottom: -30%;
+    left: -103%;
+  }
+
+  .top-bg-block,
+  .middle-bg-block,
+  .bottom-bg-block {
+    position: absolute;
+  }
+
+  .top-fst-bg-block {
+    display: none;
+    position: absolute;
+    top:0;
+    width:100%;
+    height: 12%;
+    background-image: linear-gradient(71deg, #190048 -49%, #8648c0 131%);//linear-gradient(72deg, #190048 0%, #8648c0 100%);
+    z-index: 3;
+  }
+
+  .top-bg-block {
+    top: -19%;
+    width: 100%;
+    height: 62%;
+    background-image: linear-gradient(72deg, #190048 0%, #8648c0 100%);
+    transform: skewY(-40deg);
+    z-index: 2;
+    //top:-7%;
+    //width:100%;
+    //height: 50%;
+    //background-image: linear-gradient(72deg, #190048 0%, #8648c0 100%);
+    //transform: skewY(-40deg);
+    //z-index: 2;
+  }
+
+  .bottom-bg-block {
+    bottom: -21%;
+    width: 100%;
+    height: 76%;
+    background-image: linear-gradient(72deg, #190048 0%, #8648c0 100%);
+    transform: skewY(40deg);
+  }
+
+  main {
+    padding-top: 65px;
+    position: relative;
+    overflow: hidden;
+
+    .middle-bg-block {
+      width: 60%;
+      height: 44%;
+      top: 22%;
+      left: 41.5%;
+
+      &:before {
+        position: absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        content: "";
+        background: rgba(65, 30, 126, 0.5);
+      }
+
+      img {
+        width:100%;
+        height:100%;
+      }
+    }
+
+    //&:before {
+    //  position: absolute;
+    //  content: "";
+    //  width: 80%;
+    //  top: 19.7%;
+    //  left: 32.5%;
+    //  background-size: contain;
+    //  height: 50%;
+    //  background:linear-gradient(90deg, rgba(65, 30, 126, 0.6) 0%, rgba(65, 30, 126, 0.6) 100%), url(../images/who-we-are/right_center_bg.jpg) no-repeat center;
+    //  background-blend-mode: darken;
+    //}
+
+    .site-content {
+      position: relative;
+      z-index: 10;
+    }
+
+    .block-descr{
+      h2 {
+        text-transform: uppercase;
+        font-family: @pps;
+        font-size: 40px;
+        letter-spacing:4px;
+        padding-bottom: 80px;
+
+        @media screen and (max-width: 767px) {
+          padding-bottom: 30px;
+        }
+      }
+
+      p {
+        font-size: 24px;
+        line-height: 2;
+
+        @media screen and (max-width: 767px) {
+          font-size: 18px;
+        }
+
+        .marked-text,
+        &.outcome {
+          font-family: @pps;
+          letter-spacing:3px;
+        }
+      }
+
+     &.mission {
+        padding-top: 260px;
+
+        @media screen and (max-width: 991px) {
+          padding-top: 70px;
+        }
+
+       .outcome {
+         text-transform: uppercase;
+       }
+     }
+
+      &.why-work,
+      &.placement {
+        padding-top: 150px;
+
+        @media screen and (max-width: 767px) {
+          padding-top: 40px;
+        }
+      }
+    }
+
+    .team {
+      position: relative;
+
+      &:before {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 2px;
+        background: @line-color;
+        top:223px;
+        left:27%;
+
+        @media screen and (max-width: 991px) {
+          left: 33%;
+        }
+
+        @media screen and (max-width: 767px) {
+          display: none;
+        }
+      }
+
+      &>h3{
+        font-family: @pps;
+        font-size: 30px;
+        letter-spacing:3px;
+        padding: 90px 0;
+
+        @media screen and (max-width: 767px) {
+          padding: 70px 0 45px;
+        }
+      }
+
+      .person {
+        margin-bottom: 100px;
+
+        @media screen and (max-width: 767px) {
+          margin-bottom: 40px;
+        }
+
+        .person-photo {
+          margin-bottom: 40px;
+
+          @media screen and (max-width: 767px) {
+            float: left;
+            paddint-top: 25px; 
+            padding-right: 25px;
+          }
+
+          &:before {
+            position: absolute;
+            left: -13.5%;
+            content: "";
+            width: 55px;
+            height: 2px;
+            background: #593e7d;
+          }
+        }
+
+        .person-name {
+          font-family: @pps;
+          font-size: 18px;
+          text-transform: uppercase;
+          letter-spacing:2.5px;
+          text-align: right;
+          margin-top: 0;
+
+          @media screen and (max-width: 767px) {
+            text-align: left;
+          }
+        }
+
+        .person-position {
+          display: block;
+          font-size: 16px;
+          text-align: right;
+
+          @media screen and (max-width: 767px) {
+            text-align: left;
+            padding-bottom: 25px;
+          }
+        }
+
+        .person-desr {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

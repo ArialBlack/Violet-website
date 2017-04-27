@@ -1,0 +1,56 @@
+.form-block {
+
+  h5 {
+    font-family: @ppl;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 80px;
+
+    span {
+      font-family: @ppb;
+    }
+  }
+
+  form {
+    label {
+      display: none;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      margin: 18px 0;
+      padding: 10px 0 10px 15px;
+      background: none;
+      border: 1.5px solid;
+      color: @white;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 100px;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-family: @pps;
+      font-size: 18px;
+      background: none;
+      border-color: white;
+
+      padding:20px 30px;
+      background-color: @red;
+      border:none;
+      border-radius: 0;
+      transition: background-color .45s ease;
+
+      &:hover {
+        color: inherit !important;
+        background-color: darken(@red, 10);
+      }
+    }
+  }
+}

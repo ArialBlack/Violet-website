@@ -1,0 +1,566 @@
+.fondexx {
+  background: #2c0c5d;
+  padding-top: 65px;
+
+  main {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    overflow: hidden;
+
+    @media screen and (max-width: 767px) {
+      padding-top: 70px;
+    }
+    
+    &>.container {
+      position: relative;
+      z-index:10;
+    }
+
+    .left-bg-block,
+    .right-bg-block,
+    .city-bg-block {
+      position: absolute;
+    }
+
+    .left-bg-block {
+      z-index:2;
+      background-image: linear-gradient(72deg, #190048 0%, #8648c0 100%);
+      width:100%;
+      height:31%;
+      top: 25%;
+      transform: skewY(50deg);
+    }
+
+    .right-bg-block {
+      z-index:3;
+      background-color: #2c0c5d;
+      width:100%;
+      height:100%;
+      transform: skewY(-50deg);
+      top: 28%;
+    }
+    .city-bg-block {
+      z-index: 1;
+      background: url(../images/fondexx/CT_bg.png);
+      background-size: cover;
+      width: 1618px;
+      height: 2475px;
+      left:30%;
+
+      @media (min-width:1024px) and (max-width:1300px){
+        left: 20%;
+      }
+    }
+
+    h1 {
+      padding: 70px 0;
+      font-family: @pps;
+      font-size: 40px;
+      letter-spacing: 5px;
+    }
+
+    h2 {
+      font-family: @pps;
+      font-size: 30px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .vert-line {
+      position: relative;
+
+      &:before {
+        position: absolute;
+        display: block;
+        content: "";
+        height: 100%;
+        width: 2px;
+        background: @line-color;
+        left: 0;
+
+        @media screen and (max-width: 991px) {
+          display: none;
+        }
+      }
+    }
+
+    .marked {
+      font-family: @pps;
+    }
+
+    .sub-title {
+      font-family: @pps;
+      font-size: 24px;
+      letter-spacing: 1.5px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 18px;
+      }
+    }
+
+    .title-descr {
+      font-family: @pps;
+      font-size: 30px;
+      letter-spacing: 1.5px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 22px;
+      }
+    }
+
+    .fondex-block-text {
+      font-size: 24px;
+      letter-spacing:1px;
+      padding-bottom: 30px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 16px;
+      }
+    }
+
+    .fondex-block-0 {
+      h2 {
+        padding-bottom: 100px;
+      }
+    }
+
+    .fondexx-block-0>.title-descr {
+      padding:100px 0;
+
+      @media screen and (max-width: 767px) {
+        padding: 50px 0;
+      }
+    }
+
+    .fondex-block-1 {
+      padding-bottom: 100px;
+
+      .vert-line:before {
+        top:4px;
+      }
+
+      h2 {
+        padding-bottom: 70px;
+      }
+
+      .fondex-block-text.marked {
+        padding-top: 110px;
+
+        @media screen and (max-width: 767px) {
+          padding-top: 40px;
+        }
+      }
+
+      .sub-title {
+        position: relative;
+
+        &:before {
+          position: absolute;
+          top: 2.5%;
+          left: -27%;
+          content: "";
+          width: 60px;
+          height: 2px;
+          background: @line-color;
+        }
+      }
+    }
+
+    .fondex-block-2 {
+      .vert-line:before{
+        top:72px;
+        height:93%;
+      }
+
+      h2 {
+        padding-bottom: 70px;
+      }
+
+      h3 {
+        font-size: 30px;
+        font-family: @pps;
+        padding-bottom: 50px;
+        position: relative;
+
+        &:before {
+          position: absolute;
+          top: 2.5%;
+          left: -21%;
+          content: "";
+          width: 60px;
+          height: 2px;
+          background: @line-color;
+
+          @media screen and (max-width: 767px) {
+            display: none;
+          }
+        }
+      }
+
+      .vert-line {
+        .row {
+          padding: 50px 0;
+
+          @media screen and (max-width: 767px) {
+            padding-bottom: 0;
+          }
+        }
+      }
+
+      .left-gallery {
+        .gallery-row {
+          padding: 0;
+          padding-bottom: 25px;
+
+          a {
+            img {
+              width:100%;
+              transition: all .3s ease;
+            }
+
+            &:before {
+              position: absolute;
+              content: '';
+              top: 0;
+              bottom: 0;
+              right: 15px;
+              left: 15px;
+              background:rgba(99, 49, 154, .5);
+              transition: background-color .3s ease;
+            }
+
+            &:hover {
+              img {
+                transform: scale(1.3);
+              }
+
+              &:before {
+                background:rgba(99, 49, 154, 0);
+              }
+            }
+          }
+
+        }
+      }
+      .white-rect {
+        display: inline-block;
+        padding: 10px;
+
+        @media screen and (max-width: 991px) {
+          display: none;
+        }
+      }
+    }
+
+    .fondex-block-3 {
+      padding-bottom: 160px;
+      background: url(../images/fondexx/Marketing_bg.png)no-repeat;
+      background-size: cover;
+
+      @media screen and (max-width: 767px) {
+        padding-bottom: 75px;
+      }
+
+      .vert-line:before {
+        top: 3px;
+      }
+
+      h2 {
+        position: relative;
+        padding-bottom: 95px;
+
+        @media screen and (max-width: 767px) {
+          padding-bottom: 35px;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          top: -40px;
+          left: 400px;
+          width:130px;
+          height:114px;
+          background: url(../images/fondexx/marketing_s.png) no-repeat;
+        }
+      }
+
+      h4 {
+        padding-top: 150px;
+
+        @media screen and (max-width: 767px) {
+          padding-top: 70px;
+        }
+      }
+
+      .title-descr {
+        padding-bottom: 100px;
+
+        @media screen and (max-width: 767px) {
+          padding-bottom: 40px;
+        }
+      }
+
+      .sub-title{
+        position: relative;
+
+        &:before {
+          position: absolute;
+          top: 2.5%;
+          left: -21%;
+          content: "";
+          width: 60px;
+          height: 2px;
+          background: @line-color;
+        }
+      }
+    }
+
+    .fondex-block-4 {
+      padding-top: 10px;
+      background: url(../images/fondexx/seo_bg.jpg)no-repeat center;
+      background-size: cover;
+
+      .vert-line:before {
+        top: 4px;
+      }
+
+      .num {
+        font-size: 24px;
+      }
+
+      h2 {
+        padding-bottom: 95px;
+
+        @media screen and (max-width: 767px) {
+          padding-bottom: 35px;
+        }
+      }
+
+      .sub-title {
+        font-size: 27px;
+        padding-bottom: 100px;
+        position: relative;
+
+        @media screen and (max-width: 991px) {
+          padding-bottom: 40px;
+        }
+
+        &:before {
+          position: absolute;
+          top: 2.5%;
+          left: -9.2%;
+          content: "";
+          width: 60px;
+          height: 2px;
+          background: @line-color;
+
+          @media screen and (max-width: 767px) {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .fondex-block-5 {
+      overflow: visible;
+      padding: 100px 0;
+
+      .vert-line:before {
+        top: 5px;
+        height: 99.66%;
+      }
+
+      h2 {
+        padding-bottom: 95px;
+
+        @media screen and (max-width: 767px) {
+          padding-bottom: 0;
+        }
+      }
+      .circles {
+        padding: 70px 0;
+
+        @media screen and (max-width: 767px) {
+          text-align: center;
+        }
+
+        .dashed-circle {
+          display: inline-block;
+          border: 2px dashed @red;
+          padding: 80px 38px;
+          border-radius: 200px;
+
+          @media screen and (max-width: 767px) {
+            width: 260px;
+            margin: 10px 25px;
+            &.pull-right {
+              float: inherit!important;
+            }
+          }
+
+          .fondex-block-text {
+            padding:0;
+            margin:0;
+          }
+        }
+      }
+
+      .sub-title {
+        position: relative;
+
+        &:before {
+          position: absolute;
+          top: 2.5%;
+          left: -9.2%;
+          content: "";
+          width: 60px;
+          height: 2px;
+          background: @line-color;
+        }
+      }
+    }
+
+    .fondex-block-6 {
+      .vert-line:before {
+        top: 2px;
+      }
+
+      h2 {
+        padding-bottom: 95px;
+        display: inline-block;
+
+        @media screen and (max-width: 767px) {
+          padding-bottom: 35px;
+        }
+      }
+
+      .socials-icons {
+        display: inline-block;
+        padding-left: 160px;
+
+        @media screen and (max-width: 1199px) {
+          float: right;
+          padding-left: 10px;
+        }
+
+        @media screen and (max-width: 767px) {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+
+        a {
+          font-size: 35px;
+          margin: 0 20px;
+
+          @media screen and (max-width: 480px) {
+            margin: 0 15px;;
+          }
+
+          i {
+            color: @red;
+            transition: all .3s ease;
+
+            &:hover {
+              transform: scale(1.3);
+              color: @white;
+              text-shadow: 6px 3px 4px rgba(0, 0, 0, .17);
+            }
+          }
+        }
+      }
+
+      .sub-title {
+        padding-bottom: 30px;
+        position: relative;
+
+        &:before {
+          position: absolute;
+          top: 2.5%;
+          left: -9.2%;
+          content: "";
+          width: 60px;
+          height: 2px;
+          background: @line-color;
+
+          @media screen and (max-width: 767px) {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .pages-pagination {
+      .prev-page {
+        position: relative;
+
+        &:after {
+          position: absolute;
+          right: -25px;
+          content: "";
+          background: url(../images/arrow-left.png) no-repeat;
+          background-size: contain;
+          width: 23px;
+          height: 25px;
+          bottom: -2px;
+          opacity: .6;
+        }
+
+        &:hover {
+          .page-title {
+            font-family: @ppb;
+            transform:scale(1.1);
+          }
+
+          &:after {
+            opacity: 1;
+          }
+        }
+      }
+
+      .next-page {
+        position: relative;
+        &:after {
+          position: absolute;
+          left: -20px;
+          content: "";
+          background: url(../images/arrow-right.png) no-repeat;
+          background-size: contain;
+          width: 23px;
+          height: 25px;
+          bottom: -2px;
+          opacity: .6;
+        }
+
+        &:hover {
+          .page-title {
+            font-family: @ppb;
+            transform:scale(1);
+          }
+
+          &:after {
+            opacity: 1;
+          }
+        }
+      }
+
+      .page-title {
+        font-size: 18px;
+        transform:scale(.9);
+        transition:all .3s ease;
+        text-transform: uppercase;
+
+        @media screen and (max-width: 600px) {
+          font-size: 12px;
+        }
+      }
+
+      .pagination-page-logo {
+        img {
+          display: block;
+          margin:70px auto;
+        }
+      }
+    }
+  }
+}

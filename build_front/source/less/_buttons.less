@@ -1,0 +1,24 @@
+.btn-red {
+  padding:20px 30px;
+  background-color: @red;
+  border:none;
+  border-radius: 0;
+  transition: background-color .45s ease;
+
+  &:hover {
+    background-color: darken(@red, 10);
+  }
+}
+
+.btn-dashed {
+  padding:20px 30px;
+  background:none;
+  border:1.5px dashed;
+  border-radius: 2px;
+  transition: color .45s ease;
+  letter-spacing: 2px;
+
+  &:hover {
+    color:@red;
+  }
+}
