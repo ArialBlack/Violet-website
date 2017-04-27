@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Online Advertising | Violet</title>
+  <title>Web Design | Violet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
   <link rel="apple-touch-icon" sizes="57x57" href="/sites/all/themes/violet_ui/apple-icon-57x57.png">
@@ -26,7 +26,7 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
-<body class='typical-page advertising'>
+<body class='typical-page web-design'>
   <nav class="nav-main">
       <ul class="nav">
           <li><a href="/about-company">Who we are</a></li>
@@ -102,11 +102,14 @@
       <div class="row">
         <div class="col-md-11 col-md-offset-1">
           <div class="page-logo opacity">
-            <img src="/sites/all/themes/violet_ui/images/advertising/adv_logo.png" alt="" class="jumb-logo">
+            <img src="/sites/all/themes/violet_ui/images/design/design_logo.png" alt="" class="jumb-logo">
           </div>
-          <h1 class="opacity">Online advertising</h1>
+          <h1 class="opacity">Web design and development</h1>
           <p class='jumb-descr opacity'>
-            Digital marketing operates on the internet - system that connects billions of people. We have stud-ied the market, last trends and found out that people are active online more the 35%of the day! Itopens huge possibilities for advertising, and we know how to get to all of these people. More andmore revenue of modern companies is generated online. Contextual advertising enables targeting special audiences and reaching your clients directly.
+            We design and build websites. <br>
+            We love clean, white, animated websites. <br>
+            But we also love colors and powerful emotions. <br>
+            What do you like?
           </p>
         </div>
       </div>
@@ -117,7 +120,6 @@
 
   <main>
     <!-- Steps -->
-
     <div class='steps'>
       <div class='container'>
         <div class="vertical-line"></div>
@@ -125,7 +127,7 @@
 
           <!-- Left main -->
           <div class='col-md-6 col-md-offset-1'>
-            <h2>5 important steps to getting sales online:</h2>
+            <h2 class="opacity">How we create the websites:</h2>
             <div class="step-block">
               <div class='row'>
                 <div class='col-md-4'>
@@ -135,7 +137,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Analysis.</span> The world is full of words, and your business can also be codified with the words. "Order pizza or sushi," "used Porsche in Riyadh buy," "iPhone buy best price Saudi" - it is the search inputs examples, people often use. You can show your advertising to the audience, who searches particular words. To choose words wisely we, firstly, study the market and pricing, we study how the market works in this segment. 
+                    <span class="step-title">Idea.</span> We listen to you. We gather a lot of references. References are the similar websites from all over the world. We are proposing you our approach and the way we will develop the website.
                   </p>
                 </div>
               </div>
@@ -150,7 +152,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Target audience and keywords.</span> Typically a group of people behaves similarly: if one buys - eve-rybody buys. Humans are social individuals, and they like to copy leaders behavior. Depends on your product and market we can build algorithms that will target your right audience, and it's opinion leaders. Keywords help us reach this particular audience. 
+                    <span class="step-title">Statement of work.</span> All processes, technology, and tasks should be protocolized. Before we start the project, we need to know every step that will be performed. That is essential for successful deadline management. 
                   </p>
                 </div>
               </div>
@@ -165,7 +167,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Campaign budget.</span> The marketing plan should be flexible and have a lot of sub plans. We always try to perform the first iteration of the plan with fewer resources and boost budget only if we see first signs of stable cash flow. It is very important to have the budget for the whole campaign before the start because sometimes solid results come only in few months. Agree, it wouldn't be wise to end the journey just before the success corner.
+                    <span class="step-title">Designs.</span> We start with scratches of almost all pages. UX is our primary focus because that is the main thing that brings leads and sales. Our UI expertise helps us create unique consepts and approaches.
                   </p>
                 </div>
               </div>
@@ -180,7 +182,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">A/B testing.</span> One of the important parts of the marketing strategy is A/B testing - stage when we try different ideas. We always create different landing pages, we play with the designs and the messages. Our goal is to study the user experience and improve it. So-called "warm maps" help us see where people click and how they scroll. This approach ensures excellent results, and we al-ways have to succeed together with our clients. 
+                    <span class="step-title">Development.</span> We start with the back-end. It leaves some schedule space for the brand to play more with some designs issues. After the back end is ready, we proceed to the front-end page-proofs. 
                   </p>
                 </div>
               </div>
@@ -195,7 +197,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Enhancing marketing strategy.</span> There are plenty of online tools that can be used to bring the clients back, boost sales or find your customer again and again online. One of it - is called retargeting, which means that when a person visited your site - you can show him ads on all other websites that integrated Google Adwords, it can be Youtube, it can be even Instagram. Having the data from previous campaigns - we can calibrate strategy to ensure profitable cost-effective advertising approach. 
+                    <span class="step-title">Testing and support.</span> We always include the first year of free technical support in our proposal. We know that during these time you will strongly need our help and guidance. We are happy to be helpful. 
                   </p>
                 </div>
               </div>
@@ -206,18 +208,12 @@
           <!-- Right-main -->
           <div class='col-md-4 col-md-offset-1'>
             <div class="marked-block">
-              <h2 class="opacity">Where can you advertise online?</h2>
+              <h2 class="opacity">Know your client</h2>
               <p class="opacity">
-                <span class="marked">Google Adwords.</span> Everybody knows Google, but not everyone knows that 95% of its revenue is generated with Google AdWords. GA is the most comprehensive and smart system for online ad-vertising in the world. Google opened solid opportunities for businesses to work with their audiences and increase sales. From year to year, online shops are gaining more and more of market share. Think about 2025 - will you buy anything not online?
+                2017 is a year of mobile. We predict that this year will bring Mobile to the new high of technological and marketing development. More traffic will be mobile, more sales and leads will be generated through smartphones. We are ready for this. 
               </p>
               <p class="opacity">
-                <span class="marked">Youtube.</span>  The video is the new king of content. That's why more and more people are spending hours on Youtube. They are watching videos about animals, vlogs, comedy shows and artist's vid-eoclips. And they are consuming advertisements. Businesses are using a wide range of marketing opportunities provided by Youtube - to get respect and trust of the customers or to get direct sales. 
-              </p>
-              <p class="opacity">
-                <span class="marked">Facebook Ads.</span> Facebook is still on the pace of growing and concuering the world. Facebook ad-vertisement algorithms are not so experienced as the Google's one, but they have the distinct huge advantage. Facebook helps you target audiences never like before because you can work with people profiles, which were created by individuals. Social network enables finding people who like Lamborghini and show them your luxury store ad. Marketing was never so precise since Facebook got into the business.
-              </p> 
-              <p class="opacity">
-                <span class="marked">Instagramm.</span> When Instagram was bought by Facebook this online photo- and video-sharing ser-vice implemented advertisement system. Instagram hold solid part of mobile traffic in Saudi Arabia, so it is essential for the modern business to be present on Instagram. We are in the digital age now - brands should evolve, or they will die.
+                2018 can be the year of VR - we are preparing for this. We are growing our expertise in the field of virtual reality and artificial intelligence to be just in time with disruptive marketing technologies and new brand experience for your customers. 
               </p>
             </div>
             <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
@@ -274,19 +270,19 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-xs-6 prev-page">
-            <a href='/mail-marketing' class="page-title pull-right">
-              E-mail Marketing
+            <a href='/branding' class="page-title pull-right">
+              Branding
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/mail-marketing/marketing_logo.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/branding/advertising_nav.png" alt="">
               </span>
             </a>
           </div>
           <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-            <a href='/strategy' class="page-title pull-left">
+            <a href='/mobile-marketing' class="page-title pull-left">
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/strategy/strategy_logo.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/mob-marketing/marketing_logo.png" alt="">
               </span>
-              Marketing strategy
+              Mobile marketing
             </a>
           </div>
         </div>

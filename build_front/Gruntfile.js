@@ -26,22 +26,24 @@ module.exports = function(grunt) {
                 files: {
                     // files go here, like so:
                     "../themes/violet_ui/templates/html--node__3.tpl.php": "source/html-src/index.html",
-                    "../themes/violet_ui/templates/html--node__5.tpl.php": "source/html-src/advertising.html",
-                    //"../branding.php": "source/html-src/branding.html",
-                   // "../cfc.php": "source/html-src/cfc.html",
-                   // "../company-descr.php": "source/html-src/company-descr.html",
-                   // "../comps.php": "source/html-src/comps.html",
-                   // "../design.php": "source/html-src/design.html",
-                  //  "../fondexx.php": "source/html-src/fondexx.html",
-                   // "../get-in-touch.php": "source/html-src/get-in-touch.html",
-                  //  "../mail-marketing.php": "source/html-src/mail-marketing.html",
-                  //  "../mobile-marketing.php": "source/html-src/mobile-marketing.html",
-                 //   "../seo.php": "source/html-src/seo.html",
-                  //  "../smm.php": "source/html-src/smm.html",
-                 //   "../strategy.php": "source/html-src/strategy.html",
-                  //  "../tax.php": "source/html-src/tax.html",
                     "../themes/violet_ui/templates/html--node__4.tpl.php": "source/html-src/thank-you.html",
-                 //   "../404.php": "source/html-src/404.html"
+                    "../themes/violet_ui/templates/html--node__5.tpl.php": "source/html-src/advertising.html",
+                    "../themes/violet_ui/templates/html--node__6.tpl.php": "source/html-src/branding.html",
+                    "../themes/violet_ui/templates/html--node__7.tpl.php": "source/html-src/cfc.html",
+                    "../themes/violet_ui/templates/html--node__8.tpl.php": "source/html-src/about-company.html",
+                    "../themes/violet_ui/templates/html--node__9.tpl.php": "source/html-src/comps.html",
+                    "../themes/violet_ui/templates/html--node__10.tpl.php": "source/html-src/design.html",
+                    "../themes/violet_ui/templates/html--node__11.tpl.php": "source/html-src/fondexx.html",
+                    "../themes/violet_ui/templates/html--node__12.tpl.php": "source/html-src/contacts.html",
+                    "../themes/violet_ui/templates/html--node__13.tpl.php": "source/html-src/mail-marketing.html",
+                    "../themes/violet_ui/templates/html--node__14.tpl.php": "source/html-src/mobile-marketing.html",
+                    "../themes/violet_ui/templates/html--node__15.tpl.php": "source/html-src/seo.html",
+                    "../themes/violet_ui/templates/html--node__16.tpl.php": "source/html-src/smm.html",
+                    "../themes/violet_ui/templates/html--node__17.tpl.php": "source/html-src/strategy.html",
+                    "../themes/violet_ui/templates/html--node__18.tpl.php": "source/html-src/tax.html",
+                    
+                    "../themes/violet_ui/templates/html--node__19.tpl.php": "source/html-src/404.html",
+                    "../themes/violet_ui/templates/html--node__20.tpl.php": "source/html-src/403.html"
                 }
             }
         },

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Online Advertising | Violet</title>
+  <title>SEO | Violet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
   <link rel="apple-touch-icon" sizes="57x57" href="/sites/all/themes/violet_ui/apple-icon-57x57.png">
@@ -26,7 +26,7 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
-<body class='typical-page advertising'>
+<body class='typical-page seo'>
   <nav class="nav-main">
       <ul class="nav">
           <li><a href="/about-company">Who we are</a></li>
@@ -102,11 +102,11 @@
       <div class="row">
         <div class="col-md-11 col-md-offset-1">
           <div class="page-logo opacity">
-            <img src="/sites/all/themes/violet_ui/images/advertising/adv_logo.png" alt="" class="jumb-logo">
+            <img src="/sites/all/themes/violet_ui/images/seo/seo_logo.png" alt="" class="jumb-logo">
           </div>
-          <h1 class="opacity">Online advertising</h1>
+          <h1 class="opacity">SEO</h1>
           <p class='jumb-descr opacity'>
-            Digital marketing operates on the internet - system that connects billions of people. We have stud-ied the market, last trends and found out that people are active online more the 35%of the day! Itopens huge possibilities for advertising, and we know how to get to all of these people. More andmore revenue of modern companies is generated online. Contextual advertising enables targeting special audiences and reaching your clients directly.
+            Your website search engine optimization is the key factor of successful online presence. Our job is to make it easy for your customers, and, on the other side, easier for Google algorithms to find your website. It is also essential that robots will see meta tags and sitemap, organized in a proper manner. 
           </p>
         </div>
       </div>
@@ -117,7 +117,6 @@
 
   <main>
     <!-- Steps -->
-
     <div class='steps'>
       <div class='container'>
         <div class="vertical-line"></div>
@@ -125,7 +124,7 @@
 
           <!-- Left main -->
           <div class='col-md-6 col-md-offset-1'>
-            <h2>5 important steps to getting sales online:</h2>
+            <h2 class="opacity">Five steps to getting SEO done:</h2>
             <div class="step-block">
               <div class='row'>
                 <div class='col-md-4'>
@@ -135,7 +134,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Analysis.</span> The world is full of words, and your business can also be codified with the words. "Order pizza or sushi," "used Porsche in Riyadh buy," "iPhone buy best price Saudi" - it is the search inputs examples, people often use. You can show your advertising to the audience, who searches particular words. To choose words wisely we, firstly, study the market and pricing, we study how the market works in this segment. 
+                    <span class="step-title">Analysis.</span> We analyze what, you have for the moment. Existing website, your competitors, all websites and portal in your niche.
                   </p>
                 </div>
               </div>
@@ -150,7 +149,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Target audience and keywords.</span> Typically a group of people behaves similarly: if one buys - eve-rybody buys. Humans are social individuals, and they like to copy leaders behavior. Depends on your product and market we can build algorithms that will target your right audience, and it's opinion leaders. Keywords help us reach this particular audience. 
+                    <span class="step-title">SOW for the website.</span> We create a statement of work - our written strategy with specific tasks and rules that should be implemented into the site, and your marketing strategy to succeed in the art of search engine optimization.  
                   </p>
                 </div>
               </div>
@@ -165,7 +164,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Campaign budget.</span> The marketing plan should be flexible and have a lot of sub plans. We always try to perform the first iteration of the plan with fewer resources and boost budget only if we see first signs of stable cash flow. It is very important to have the budget for the whole campaign before the start because sometimes solid results come only in few months. Agree, it wouldn't be wise to end the journey just before the success corner.
+                    <span class="step-title">Website optimization.</span> Our web developers are performing the tasks from SEO statement of work. We set meta tags, we close particular pages from the eyes of robots, we handle redirects, etc.  
                   </p>
                 </div>
               </div>
@@ -180,7 +179,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">A/B testing.</span> One of the important parts of the marketing strategy is A/B testing - stage when we try different ideas. We always create different landing pages, we play with the designs and the messages. Our goal is to study the user experience and improve it. So-called "warm maps" help us see where people click and how they scroll. This approach ensures excellent results, and we al-ways have to succeed together with our clients. 
+                    <span class="step-title">Links strategy.</span> Links still matters. But you do not need to buy them. We know how to get the most relevant and robust links to make you rank higher. 
                   </p>
                 </div>
               </div>
@@ -195,7 +194,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Enhancing marketing strategy.</span> There are plenty of online tools that can be used to bring the clients back, boost sales or find your customer again and again online. One of it - is called retargeting, which means that when a person visited your site - you can show him ads on all other websites that integrated Google Adwords, it can be Youtube, it can be even Instagram. Having the data from previous campaigns - we can calibrate strategy to ensure profitable cost-effective advertising approach. 
+                    <span class="step-title">Content creation.</span> Content is the new king of the web. Algorithms are tracking the volume of proper words at your website. To show you in search exposure. We are creating the blog posts for corporate websites, product pages, and brands content projects. 
                   </p>
                 </div>
               </div>
@@ -206,19 +205,16 @@
           <!-- Right-main -->
           <div class='col-md-4 col-md-offset-1'>
             <div class="marked-block">
-              <h2 class="opacity">Where can you advertise online?</h2>
+              <h2 class="opacity">How SEO evolved to these days:</h2>
               <p class="opacity">
-                <span class="marked">Google Adwords.</span> Everybody knows Google, but not everyone knows that 95% of its revenue is generated with Google AdWords. GA is the most comprehensive and smart system for online ad-vertising in the world. Google opened solid opportunities for businesses to work with their audiences and increase sales. From year to year, online shops are gaining more and more of market share. Think about 2025 - will you buy anything not online?
+                Firstly, it was easy. All that was needed to get your page highly ranked - more links to your website. So SEO specialists were just buying links. It was easy. 
               </p>
               <p class="opacity">
-                <span class="marked">Youtube.</span>  The video is the new king of content. That's why more and more people are spending hours on Youtube. They are watching videos about animals, vlogs, comedy shows and artist's vid-eoclips. And they are consuming advertisements. Businesses are using a wide range of marketing opportunities provided by Youtube - to get respect and trust of the customers or to get direct sales. 
+                But, that led to mistakes and frauds in search extradition. So Google engines were rebuilt. From that moment the primary goal of these algorithms was to show internet user exactly the content, he is looking for. 
               </p>
               <p class="opacity">
-                <span class="marked">Facebook Ads.</span> Facebook is still on the pace of growing and concuering the world. Facebook ad-vertisement algorithms are not so experienced as the Google's one, but they have the distinct huge advantage. Facebook helps you target audiences never like before because you can work with people profiles, which were created by individuals. Social network enables finding people who like Lamborghini and show them your luxury store ad. Marketing was never so precise since Facebook got into the business.
+                Today, almost every quarter algorithms are changing, but, thankfully - not significant. Our job is to follow the changes and adapt your SEO impose to new rules, to make you the number one.
               </p> 
-              <p class="opacity">
-                <span class="marked">Instagramm.</span> When Instagram was bought by Facebook this online photo- and video-sharing ser-vice implemented advertisement system. Instagram hold solid part of mobile traffic in Saudi Arabia, so it is essential for the modern business to be present on Instagram. We are in the digital age now - brands should evolve, or they will die.
-              </p>
             </div>
             <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
           </div>
@@ -274,26 +270,25 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-xs-6 prev-page">
-            <a href='/mail-marketing' class="page-title pull-right">
-              E-mail Marketing
+            <a href='/mobile-marketing' class="page-title pull-right">
+              Mobile marketing
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/mail-marketing/marketing_logo.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/mob-marketing/marketing_logo.png" alt="">
               </span>
             </a>
           </div>
           <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-            <a href='/strategy' class="page-title pull-left">
+            <a href='/smm' class="page-title pull-left">
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/strategy/strategy_logo.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/smm/smm_logo.png" alt="">
               </span>
-              Marketing strategy
+              SMM
             </a>
           </div>
         </div>
       </div>
     </div>
     <!-- /Pages-pagination -->
-
   </main>
 
   <footer class="footer">

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Online Advertising | Violet</title>
+  <title>Marketing Strategy | Violet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
   <link rel="apple-touch-icon" sizes="57x57" href="/sites/all/themes/violet_ui/apple-icon-57x57.png">
@@ -26,7 +26,7 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
-<body class='typical-page advertising'>
+<body class='typical-page strategy'>
   <nav class="nav-main">
       <ul class="nav">
           <li><a href="/about-company">Who we are</a></li>
@@ -102,11 +102,11 @@
       <div class="row">
         <div class="col-md-11 col-md-offset-1">
           <div class="page-logo opacity">
-            <img src="/sites/all/themes/violet_ui/images/advertising/adv_logo.png" alt="" class="jumb-logo">
+            <img src="/sites/all/themes/violet_ui/images/strategy/strategy_logo.png" alt="" class="jumb-logo">
           </div>
-          <h1 class="opacity">Online advertising</h1>
+          <h1 class="opacity">Marketing strategy</h1>
           <p class='jumb-descr opacity'>
-            Digital marketing operates on the internet - system that connects billions of people. We have stud-ied the market, last trends and found out that people are active online more the 35%of the day! Itopens huge possibilities for advertising, and we know how to get to all of these people. More andmore revenue of modern companies is generated online. Contextual advertising enables targeting special audiences and reaching your clients directly.
+            Any successful plan is based on the facts and new ideas. Our task is to study your business, your market, and your competitors. We use sociology, trend watching, and big data analysis to collect facts. We use your story to create ideas. With facts and ideas, we can work with your customer's behavior and minds.
           </p>
         </div>
       </div>
@@ -117,7 +117,6 @@
 
   <main>
     <!-- Steps -->
-
     <div class='steps'>
       <div class='container'>
         <div class="vertical-line"></div>
@@ -125,7 +124,7 @@
 
           <!-- Left main -->
           <div class='col-md-6 col-md-offset-1'>
-            <h2>5 important steps to getting sales online:</h2>
+            <h2 class="opacity">5 steps of Marketing strategy creation:</h2>
             <div class="step-block">
               <div class='row'>
                 <div class='col-md-4'>
@@ -135,7 +134,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Analysis.</span> The world is full of words, and your business can also be codified with the words. "Order pizza or sushi," "used Porsche in Riyadh buy," "iPhone buy best price Saudi" - it is the search inputs examples, people often use. You can show your advertising to the audience, who searches particular words. To choose words wisely we, firstly, study the market and pricing, we study how the market works in this segment. 
+                    <span class="step-title">Market research.</span> We collect the maximum amount of data and analyze it. Our goal is to find out – what are the typical marketing tools in this market, in this country and abroad. What are the average CTR, CPA prices? How the audience get used to reacting to different content types etc.
                   </p>
                 </div>
               </div>
@@ -150,7 +149,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Target audience and keywords.</span> Typically a group of people behaves similarly: if one buys - eve-rybody buys. Humans are social individuals, and they like to copy leaders behavior. Depends on your product and market we can build algorithms that will target your right audience, and it's opinion leaders. Keywords help us reach this particular audience. 
+                    <span class="step-title">Market positioning and goal planning.</span> Together with the client, we develop the stories, a brand should tell the customers, with any piece of marketing efforts. At this stage, we decide what market share we want to reach.
                   </p>
                 </div>
               </div>
@@ -165,7 +164,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Campaign budget.</span> The marketing plan should be flexible and have a lot of sub plans. We always try to perform the first iteration of the plan with fewer resources and boost budget only if we see first signs of stable cash flow. It is very important to have the budget for the whole campaign before the start because sometimes solid results come only in few months. Agree, it wouldn't be wise to end the journey just before the success corner.
+                    <span class="step-title">Tools.</span> At this step, we select which tools will be more efficient in achieving our goals. We use our experience, competitive cases, and Google data analysis to make the proper decision.
                   </p>
                 </div>
               </div>
@@ -180,7 +179,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">A/B testing.</span> One of the important parts of the marketing strategy is A/B testing - stage when we try different ideas. We always create different landing pages, we play with the designs and the messages. Our goal is to study the user experience and improve it. So-called "warm maps" help us see where people click and how they scroll. This approach ensures excellent results, and we al-ways have to succeed together with our clients. 
+                    <span class="step-title">Workflow and budget planning.</span> The strategy needs tactics, so we are creating weekly plan having every single step written on the paper.
                   </p>
                 </div>
               </div>
@@ -195,7 +194,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Enhancing marketing strategy.</span> There are plenty of online tools that can be used to bring the clients back, boost sales or find your customer again and again online. One of it - is called retargeting, which means that when a person visited your site - you can show him ads on all other websites that integrated Google Adwords, it can be Youtube, it can be even Instagram. Having the data from previous campaigns - we can calibrate strategy to ensure profitable cost-effective advertising approach. 
+                    <span class="step-title">Remarketing by all means.</span> We base our strategy on data, and we should always collect more data about your customers. So we are constantly monitoring the feedback and preliminary results of the strategy to implement some changes, perform additional tests and calibrate our strategy to get “best in class” results.
                   </p>
                 </div>
               </div>
@@ -206,18 +205,18 @@
           <!-- Right-main -->
           <div class='col-md-4 col-md-offset-1'>
             <div class="marked-block">
-              <h2 class="opacity">Where can you advertise online?</h2>
+              <h2 class="opacity">Know your client</h2>
               <p class="opacity">
-                <span class="marked">Google Adwords.</span> Everybody knows Google, but not everyone knows that 95% of its revenue is generated with Google AdWords. GA is the most comprehensive and smart system for online ad-vertising in the world. Google opened solid opportunities for businesses to work with their audiences and increase sales. From year to year, online shops are gaining more and more of market share. Think about 2025 - will you buy anything not online?
+                There are three essential issues any marketing strategy should always include:
               </p>
               <p class="opacity">
-                <span class="marked">Youtube.</span>  The video is the new king of content. That's why more and more people are spending hours on Youtube. They are watching videos about animals, vlogs, comedy shows and artist's vid-eoclips. And they are consuming advertisements. Businesses are using a wide range of marketing opportunities provided by Youtube - to get respect and trust of the customers or to get direct sales. 
+                UX design thinking – you need to understand your customer. Who is he? What does he want? How he pay or buy? How he makes a decision?
               </p>
               <p class="opacity">
-                <span class="marked">Facebook Ads.</span> Facebook is still on the pace of growing and concuering the world. Facebook ad-vertisement algorithms are not so experienced as the Google's one, but they have the distinct huge advantage. Facebook helps you target audiences never like before because you can work with people profiles, which were created by individuals. Social network enables finding people who like Lamborghini and show them your luxury store ad. Marketing was never so precise since Facebook got into the business.
-              </p> 
+                A/B testing - you need to make several tries, few tests to build the most cost-effective marketing model.
+              </p>
               <p class="opacity">
-                <span class="marked">Instagramm.</span> When Instagram was bought by Facebook this online photo- and video-sharing ser-vice implemented advertisement system. Instagram hold solid part of mobile traffic in Saudi Arabia, so it is essential for the modern business to be present on Instagram. We are in the digital age now - brands should evolve, or they will die.
+                Reputation – your marketing strategy should be gentle and smart. Reputation is something that is made with time and hard work. We are pros at building a reputation online.
               </p>
             </div>
             <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
@@ -274,26 +273,25 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-xs-6 prev-page">
-            <a href='/mail-marketing' class="page-title pull-right">
-              E-mail Marketing
+            <a href='/advertising' class="page-title pull-right">
+              Contextual advertising
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/mail-marketing/marketing_logo.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/branding/advertising_nav.png" alt="">
               </span>
             </a>
           </div>
           <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-            <a href='/strategy' class="page-title pull-left">
+            <a href='/branding' class="page-title pull-left">
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/strategy/strategy_logo.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/branding/branding_nav.png" alt="">
               </span>
-              Marketing strategy
+              Branding
             </a>
           </div>
         </div>
       </div>
     </div>
     <!-- /Pages-pagination -->
-
   </main>
 
   <footer class="footer">
