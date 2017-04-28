@@ -11,7 +11,7 @@
     @media screen and (max-width: 767px) {
       padding-top: 70px;
     }
-    
+
     &>.container {
       position: relative;
       z-index:10;
@@ -199,7 +199,7 @@
       }
 
       .vert-line {
-        .row {
+        &>.row {
           padding: 50px 0;
 
           @media screen and (max-width: 767px) {
@@ -243,14 +243,23 @@
 
         }
       }
-      .white-rect {
-        display: inline-block;
-        padding: 10px;
+     .second-gallery {
+       padding-bottom: 40px;
 
-        @media screen and (max-width: 991px) {
-          display: none;
-        }
-      }
+       img {
+         max-width:100%;
+       }
+
+       @media (max-width:600px) {
+         width:100%;
+         margin-left: 0;
+       }
+
+       @media screen and (max-width:991px) {
+         float: initial;
+       }
+     }
+
     }
 
     .fondex-block-3 {

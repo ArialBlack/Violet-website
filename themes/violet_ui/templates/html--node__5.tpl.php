@@ -106,7 +106,7 @@
           </div>
           <h1 class="opacity">Online advertising</h1>
           <p class='jumb-descr opacity'>
-            Digital marketing operates on the internet - system that connects billions of people. We have stud-ied the market, last trends and found out that people are active online more the 35%of the day! Itopens huge possibilities for advertising, and we know how to get to all of these people. More andmore revenue of modern companies is generated online. Contextual advertising enables targeting special audiences and reaching your clients directly.
+            Digital marketing operates on the internet - system that connects billions of people. We have studied the market, last trends and found out that people are active online more the 35% of the day! It opens huge possibilities for advertising, and we know how to get to all of these people. More and more revenue of modern companies is generated online. Contextual advertising enables targeting special audiences and reaching your clients directly.
           </p>
         </div>
       </div>
@@ -135,7 +135,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Analysis.</span> The world is full of words, and your business can also be codified with the words. "Order pizza or sushi," "used Porsche in Riyadh buy," "iPhone buy best price Saudi" - it is the search inputs examples, people often use. You can show your advertising to the audience, who searches particular words. To choose words wisely we, firstly, study the market and pricing, we study how the market works in this segment. 
+                    <span class="step-title">Analysis.</span> The world is full of words, and your business can also be codified with the words. "Order pizza or sushi," "used Porsche in Riyadh buy," "iPhone buy best price Saudi" - it is the search inputs examples, people often use. You can show your advertising to the audience, who searches particular words. To choose words wisely we, firstly, study the market and pricing, we study how the market works in this segment.
                   </p>
                 </div>
               </div>
@@ -150,7 +150,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Target audience and keywords.</span> Typically a group of people behaves similarly: if one buys - eve-rybody buys. Humans are social individuals, and they like to copy leaders behavior. Depends on your product and market we can build algorithms that will target your right audience, and it's opinion leaders. Keywords help us reach this particular audience. 
+                    <span class="step-title">Target audience and keywords.</span> Typically a group of people behaves similarly: if one buys - everybody buys. Humans are social individuals, and they like to copy leaders behavior. Depends on your product and market we can build algorithms that will target your right audience, and it's opinion leaders. Keywords help us reach this particular audience.
                   </p>
                 </div>
               </div>
@@ -180,7 +180,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">A/B testing.</span> One of the important parts of the marketing strategy is A/B testing - stage when we try different ideas. We always create different landing pages, we play with the designs and the messages. Our goal is to study the user experience and improve it. So-called "warm maps" help us see where people click and how they scroll. This approach ensures excellent results, and we al-ways have to succeed together with our clients. 
+                    <span class="step-title">A/B testing.</span> One of the important parts of the marketing strategy is A/B testing - stage when we try different ideas. We always create different landing pages, we play with the designs and the messages. Our goal is to study the user experience and improve it. So-called "warm maps" help us see where people click and how they scroll. This approach ensures excellent results, and we always have to succeed together with our clients.
                   </p>
                 </div>
               </div>
@@ -195,7 +195,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Enhancing marketing strategy.</span> There are plenty of online tools that can be used to bring the clients back, boost sales or find your customer again and again online. One of it - is called retargeting, which means that when a person visited your site - you can show him ads on all other websites that integrated Google Adwords, it can be Youtube, it can be even Instagram. Having the data from previous campaigns - we can calibrate strategy to ensure profitable cost-effective advertising approach. 
+                    <span class="step-title">Enhancing marketing strategy.</span> There are plenty of online tools that can be used to bring the clients back, boost sales or find your customer again and again online. One of it - is called retargeting, which means that when a person visited your site - you can show him ads on all other websites that integrated Google Adwords, it can be Youtube, it can be even Instagram. Having the data from previous campaigns - we can calibrate strategy to ensure profitable cost-effective advertising approach.
                   </p>
                 </div>
               </div>
@@ -211,13 +211,13 @@
                 <span class="marked">Google Adwords.</span> Everybody knows Google, but not everyone knows that 95% of its revenue is generated with Google AdWords. GA is the most comprehensive and smart system for online ad-vertising in the world. Google opened solid opportunities for businesses to work with their audiences and increase sales. From year to year, online shops are gaining more and more of market share. Think about 2025 - will you buy anything not online?
               </p>
               <p class="opacity">
-                <span class="marked">Youtube.</span>  The video is the new king of content. That's why more and more people are spending hours on Youtube. They are watching videos about animals, vlogs, comedy shows and artist's vid-eoclips. And they are consuming advertisements. Businesses are using a wide range of marketing opportunities provided by Youtube - to get respect and trust of the customers or to get direct sales. 
+                <span class="marked">Youtube.</span>  The video is the new king of content. That's why more and more people are spending hours on Youtube. They are watching videos about animals, vlogs, comedy shows and artist's vid-eoclips. And they are consuming advertisements. Businesses are using a wide range of marketing opportunities provided by Youtube - to get respect and trust of the customers or to get direct sales.
               </p>
               <p class="opacity">
-                <span class="marked">Facebook Ads.</span> Facebook is still on the pace of growing and concuering the world. Facebook ad-vertisement algorithms are not so experienced as the Google's one, but they have the distinct huge advantage. Facebook helps you target audiences never like before because you can work with people profiles, which were created by individuals. Social network enables finding people who like Lamborghini and show them your luxury store ad. Marketing was never so precise since Facebook got into the business.
-              </p> 
+                <span class="marked">Facebook Ads.</span> Facebook is still on the pace of growing and concuering the world. Facebook advertisement algorithms are not so experienced as the Google's one, but they have the distinct huge advantage. Facebook helps you target audiences never like before because you can work with people profiles, which were created by individuals. Social network enables finding people who like Lamborghini and show them your luxury store ad. Marketing was never so precise since Facebook got into the business.
+              </p>
               <p class="opacity">
-                <span class="marked">Instagramm.</span> When Instagram was bought by Facebook this online photo- and video-sharing ser-vice implemented advertisement system. Instagram hold solid part of mobile traffic in Saudi Arabia, so it is essential for the modern business to be present on Instagram. We are in the digital age now - brands should evolve, or they will die.
+                <span class="marked">Instagramm.</span> When Instagram was bought by Facebook this online photo- and video-sharing service implemented advertisement system. Instagram holds solid part of mobile traffic in Saudi Arabia, so it is essential for the modern business to be present on Instagram. We are in the digital age now - brands should evolve, or they will die.
               </p>
             </div>
             <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>

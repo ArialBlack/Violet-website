@@ -116,12 +116,12 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-1">
 					<h3 class="opacity">
-						Take a tour into the expo of our competencies. 
+						Take a tour into the expo of our competencies.
 					</h3>
 				</div>
 				<div class="col-md-3">
 					<p class='brief-info opacity'>
-						We are studying and following innovation pace of the digital marketing universe. Violet is the team of highly qualified professionals in the spheres on advertising, branding, design and programming. 
+						We are studying and following innovation pace of the digital marketing universe. Violet is the team of highly qualified professionals in the spheres of advertising, branding, design and programming.
 					</p>
 				</div>
 			</div>
@@ -172,7 +172,7 @@
 						<p class="comp-descr-hide">
 							Mobile is the new black. Mobile advertising is one of the most trending industry in the world. Violet helps brands to succeed in a digital mobile era.
 							<a href="/mobile-marketing" class="comp-more">learn more</a>
-						</p>    		
+						</p>
 					</div>
 				</div>
 			</div>
@@ -186,7 +186,7 @@
 						<div class="comp-logo text-center"><img src="/sites/all/themes/violet_ui/images/seo/seo_logo.png" alt=""></div>
 						<div class="arrow-down"></div>
 						<p class="comp-descr-hide">
-							Search Engine Optimization is always changing and reshaping. Google algorithms are trying tomake search more transparent and relevant. We know howto set your website right.
+							Search Engine Optimization is always changing and reshaping. Google algorithms are trying tomake search more transparent and relevant. We know how to set your website right.
 							<a href="/seo" class="comp-more">learn more</a>
 						</p>
 					</div>
@@ -197,7 +197,7 @@
 						<div class="comp-logo text-center"><img src="/sites/all/themes/violet_ui/images/smm/smm_logo.png" alt=""></div>
 						<div class="arrow-down"></div>
 						<p class="comp-descr-hide">
-							Social Media Marketing is the new huge part ofour reality. People live through Facebook and In-stagram. People get news, talk to brands, share reviews - business lives online now.
+							Social Media Marketing is the new huge part ofour reality. People live through Facebook and  part of our reality Instagram. People get news, talk to brands, share reviews - business lives online now.
 							<a href="/smm" class="comp-more">learn more</a>
 						</p>
 					</div>
@@ -219,7 +219,7 @@
 						<div class="comp-logo text-center"><img src="/sites/all/themes/violet_ui/images/advertising/adv_logo.png" alt=""></div>
 						<div class="arrow-down"></div>
 						<p class="comp-descr-hide">
-							We are passionate about getting more using less. We know how search and social algorithms works, how people click, how they look through. We know how to sell them.Z
+							We are passionate about getting more using less. We know how search and social algorithms works, how people click, how they look through. We know how to sell them.
 							<a href="/advertising" class="comp-more">learn more</a>
 						</p>
 					</div>

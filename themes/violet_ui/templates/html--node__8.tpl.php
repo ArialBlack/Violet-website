@@ -119,7 +119,7 @@
       <div class="block-descr why-work">
         <h2 class="opacity">Why work with Violet</h2>
         <p class="opacity">
-          <span class="marked-text">At Violet, we know how digital world works.</span> We have the best-in-class team, diverse expertise, and breakthrough communication tools to deal with its challenges. We thrive on helping our clients navigate through this brave new always-on world of unprecedented risks, unrivaled competition, and unbridled opportunities.
+          <span class="marked-text">At Violet, we know how digital world works.</span> We have the best-in-class team of Saudi men and women that know the culture with breakthrough communication tools to deal with its challenges. We thrive on helping our clients navigate through this brave new always-on world of unprecedented risks, unrivaled competition, and unbridled opportunities.
         </p>
         <p class='outcome opacity'>Choosing Violet, you are choosing growth.</p>
       </div>
