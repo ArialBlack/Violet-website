@@ -45,7 +45,7 @@
             </span>
         </li>
         <li class="lang">
-            English <span class="divide">/</span>
+          <a href="#">English</a> <span class="divide">/</span> <a href="#">Arabic</a>
         </li>
     </ul>
     <div class="bubble-animation"></div>
@@ -78,7 +78,7 @@
             </div>
             <div class="col-md-3 col-md-offset-2 col-sm-4 mob-to-burger">
                 <div class="lang">
-                   English <span class="divide"></span>
+                  <a href="#">English</a> <span class="divide"></span> <a href="#">Arabic</a>
                 </div>
             </div>
         </div>
@@ -94,6 +94,7 @@
         </div>
     </div>
 </header>
+
 
   <main>
     <div class="top-fst-bg-block"></div>

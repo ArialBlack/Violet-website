@@ -41,9 +41,10 @@ module.exports = function(grunt) {
                     "../themes/violet_ui/templates/html--node__16.tpl.php": "source/html-src/smm.html",
                     "../themes/violet_ui/templates/html--node__17.tpl.php": "source/html-src/strategy.html",
                     "../themes/violet_ui/templates/html--node__18.tpl.php": "source/html-src/tax.html",
-                    
+
                     "../themes/violet_ui/templates/html--node__19.tpl.php": "source/html-src/404.html",
-                    "../themes/violet_ui/templates/html--node__20.tpl.php": "source/html-src/403.html"
+                    "../themes/violet_ui/templates/html--node__20.tpl.php": "source/html-src/403.html",
+                    "../themes/violet_ui/templates/html--node__21.tpl.php": "source/html-src/arabic.html",
                 }
             }
         },
@@ -68,7 +69,7 @@ module.exports = function(grunt) {
             }
 
         },
-        
+
         postcss: {
             options: {
               processors: [

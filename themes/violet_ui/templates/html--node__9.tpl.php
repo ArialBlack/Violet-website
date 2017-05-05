@@ -45,7 +45,7 @@
             </span>
         </li>
         <li class="lang">
-            English <span class="divide">/</span>
+          <a href="#">English</a> <span class="divide">/</span> <a href="#">Arabic</a>
         </li>
     </ul>
     <div class="bubble-animation"></div>
@@ -78,7 +78,7 @@
             </div>
             <div class="col-md-3 col-md-offset-2 col-sm-4 mob-to-burger">
                 <div class="lang">
-                   English <span class="divide"></span>
+                  <a href="#">English</a> <span class="divide"></span> <a href="#">Arabic</a>
                 </div>
             </div>
         </div>
@@ -94,6 +94,7 @@
         </div>
     </div>
 </header>
+
 
 	<main>
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 283.5 283.5" style="enable-background:new 0 0 283.5 283.5;" xml:space="preserve"  class="svg-right-rect">

@@ -46,7 +46,7 @@
 	            </span>
 	        </li>
 	        <li class="lang">
-	            English <span class="divide">/</span>
+	          <a href="#">English</a> <span class="divide">/</span> <a href="#">Arabic</a>
 	        </li>
 	    </ul>
 	    <div class="bubble-animation"></div>
@@ -79,7 +79,7 @@
 	            </div>
 	            <div class="col-md-3 col-md-offset-2 col-sm-4 mob-to-burger">
 	                <div class="lang">
-	                   English <span class="divide"></span>
+	                  <a href="#">English</a> <span class="divide"></span> <a href="#">Arabic</a>
 	                </div>
 	            </div>
 	        </div>
@@ -95,6 +95,7 @@
 	        </div>
 	    </div>
 	</header>
+
 
 	<main>
 		<div class="container">
@@ -120,36 +121,37 @@
 		<div class="container-fluid map-tabs">
 			<div class="map">
 				<!--<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad6af0716edd483946627563e5ea4d19041e14a3f99fc8830812aeab34ac206cb&amp;width=100%25&amp;height=652.5px&amp;lang=ru_RU&amp;scroll=true"></script>-->
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927764.355925649!2d46.26202994516727!3d24.724150273832564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2z0K3RgC3QoNC40Y_QtCDQodCw0YPQtNC-0LLRgdC60LDRjyDQkNGA0LDQstC40Y8!5e0!3m2!1sru!2sua!4v1492946870378" width="100%" height="652" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4485.019114318743!2d46.715790615487926!3d24.665562884146212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0467e9ee41e5%3A0x13daee250af37a19!2sArrest+arrivals+Division+of+the+box!5e1!3m2!1sru!2sua!4v1493896338489" width="100%" height="652" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 
 			<div class="tabs">
 				<ul>
-					<li><a href="tab-1" target-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193467.62687123803!2d30.339357145395567!3d50.42298577268853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LI!5e0!3m2!1suk!2sua!4v1492950223715">Ukraine, Kyiv</a></li>
-					<li><a href="tab-2" target-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220259.0000106716!2d-81.70258011495656!3d37.98216568156238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884cd670bdbcb2cd%3A0xc04e4149b746a695!2z0JLRltGA0LTQttC40L3RltGPLCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1492950600212">USA, Virginia  </a></li>
-					<li class="map-active"><a href="tab-3" target-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927764.355925649!2d46.26202994516727!3d24.724150273832564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2z0K3RgC3QoNC40Y_QtCDQodCw0YPQtNC-0LLRgdC60LDRjyDQkNGA0LDQstC40Y8!5e0!3m2!1sru!2sua!4v1492946870378">Saudi Arabia, Riyadh</a></li>
+					<li><a href="tab-1" target-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1599.0623581803422!2d30.41823851016308!3d50.449719994582225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDI2JzU5LjAiTiAzMMKwMjUnMDkuNyJF!5e1!3m2!1sru!2sua!4v1493895634373">Ukraine, Kyiv</a></li>
+					<li><a href="tab-2" target-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d66614.65387449355!2d-77.1536789664104!3d38.75235661380676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7ad85004a919f%3A0xf41da7fa47ac7213!2zNzAyNCBFbGxpbmdoYW0gQ2lyIGIsIEFsZXhhbmRyaWEsIFZBIDIyMzE1LCDQodCo0JA!5e1!3m2!1sru!2sua!4v1493896450033">USA, Virginia  </a></li>
+					<li class="map-active"><a href="tab-3" target-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4485.019114318743!2d46.715790615487926!3d24.665562884146212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0467e9ee41e5%3A0x13daee250af37a19!2sArrest+arrivals+Division+of+the+box!5e1!3m2!1sru!2sua!4v1493896338489">Saudi Arabia, Riyadh</a></li>
 				</ul>
 
 				<div class="tab-content">
 					<div class="tab tab-1">
 						<h4>Our Offices</h4>
 						<div class="map-block-text">
-							<h5>Adress1</h5>
-							<p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,<br> sdo eiusm.</p>
+							<h5>Ukraine, Kiyv</h5>
+							<p>Украина, 03124, г. Киев, ул. Василенка, 7-а</p>
 						</div>
 
 						<div class="map-block-text">
 							<h5>Phones</h5>
-							<p>
-								<a href="tel:+966550172827">+ 966 550 172 827</a><br>
-								<a href="tel:+966549494991">+ 966&nbsp;54&nbsp;949&nbsp;49&nbsp;91</a>
-							</p>
+              <p>
+                <a href="tel:+966550172827">+ 966 549 494 991</a> - <b>Fahad Al-Shehri, Chief Strategist.</b><br>
+                <a href="tel:+966549494991">+ 966 550 172 827</a> - <b>Masud Nadim, Chief Execute Officer</b>
+              </p>
 						</div>
 
 						<div class="map-block-text">
 							<h5>E-mail</h5>
 							<p>
-								<a href="mailto:info@violet.maketing">info@violet.maketing</a>
+								<a href="mailto:Fahad@violet.maketing">Fahad@violet.maketing</a> <br>
+                <a href="mailto:Nadim@violet.maketing">Nadim@violet.maketing</a>
 							</p>
 						</div>
 
@@ -164,24 +166,25 @@
 					<div class="tab tab-2">
 						<h4>Our Offices</h4>
 						<div class="map-block-text">
-							<h5>Adress2</h5>
-							<p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,<br> sdo eiusm.</p>
+							<h5>USA, Virginia</h5>
+							<p>7024 Ellingham circle, unit B, Alexandria VA 22315</p>
 						</div>
 
-						<div class="map-block-text">
-							<h5>Phones</h5>
-							<p>
-								<a href="tel:+966550172827">+ 966 550 172 827</a><br>
-								<a href="tel:+966549494991">+ 966&nbsp;54&nbsp;949&nbsp;49&nbsp;91</a>
-							</p>
-						</div>
+            <div class="map-block-text">
+              <h5>Phones</h5>
+              <p>
+                <a href="tel:+966550172827">+ 966 549 494 991</a> - <b>Fahad Al-Shehri, Chief Strategist.</b><br>
+                <a href="tel:+966549494991">+ 966 550 172 827</a> - <b>Masud Nadim, Chief Execute Officer</b>
+              </p>
+            </div>
 
-						<div class="map-block-text">
-							<h5>E-mail</h5>
-							<p>
-								<a href="mailto:info@violet.maketing">info@violet.maketing</a>
-							</p>
-						</div>
+            <div class="map-block-text">
+              <h5>E-mail</h5>
+              <p>
+                <a href="mailto:Fahad@violet.maketing">Fahad@violet.maketing</a> <br>
+                <a href="mailto:Nadim@violet.maketing">Nadim@violet.maketing</a>
+              </p>
+            </div>
 
 						<div class="map-block-text">
 							<h5>Skype</h5>
@@ -194,24 +197,25 @@
 					<div class="tab tab-3 map-active">
 						<h4>Our Offices</h4>
 						<div class="map-block-text">
-							<h5>Adress3</h5>
-							<p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,<br> sdo eiusm.</p>
+							<h5>Saudi Arabia, Riyadh</h5>
+							<p>P.O. Box 26197 Riyadh 11486</p>
 						</div>
 
-						<div class="map-block-text">
-							<h5>Phones</h5>
-							<p>
-								<a href="tel:+966550172827">+ 966 550 172 827</a><br>
-								<a href="tel:+966549494991">+ 966&nbsp;54&nbsp;949&nbsp;49&nbsp;91</a>
-							</p>
-						</div>
+            <div class="map-block-text">
+              <h5>Phones</h5>
+              <p>
+                <a href="tel:+966550172827">+ 966 549 494 991</a> - <b>Fahad Al-Shehri, Chief Strategist.</b><br>
+                <a href="tel:+966549494991">+ 966 550 172 827</a> - <b>Masud Nadim, Chief Execute Officer</b>
+              </p>
+            </div>
 
-						<div class="map-block-text">
-							<h5>E-mail</h5>
-							<p>
-								<a href="mailto:info@violet.maketing">info@violet.maketing</a>
-							</p>
-						</div>
+            <div class="map-block-text">
+              <h5>E-mail</h5>
+              <p>
+                <a href="mailto:Fahad@violet.maketing">Fahad@violet.maketing</a> <br>
+                <a href="mailto:Nadim@violet.maketing">Nadim@violet.maketing</a>
+              </p>
+            </div>
 
 						<div class="map-block-text">
 							<h5>Skype</h5>

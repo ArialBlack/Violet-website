@@ -58,7 +58,7 @@ $(document).ready (function() {
   /*** /Opacity on scroll ***/
 
 
-  
+
   var mobToBurger = $('.mob-to-burger');
   appendMobCollapse(mobToBurger);
   jumbCheckHeight();
@@ -70,7 +70,7 @@ $(document).ready (function() {
   $('.comp-block').click(function(){
     console.log(123);
     var blockUrl = $(this).find('.comp-more').attr('href');
-    location.href = blockUrl; 
+    location.href = blockUrl;
   })
 
   /*** burger-toggle ***/
@@ -108,6 +108,35 @@ $(document).ready (function() {
     }, 500);
   });
   /*** Animation for navigation ***/
+
+  /*** Marker for Google maps***/
+  // function initMap() {
+  //   var marker = new google.maps.Marker ({
+  //     position: {lat: 24.665329, lng: 46.717934},
+  //     map: map,
+  //     animation: google.maps.Animation.DROP,
+  //     title: 'Violet Marketing',
+  //     icon:'violet.png'
+  //   });
+  //
+  //
+  //   var marker2 = new google.maps.Marker ({
+  //     position: {lat: 50.445666, lng: 30.421517},
+  //     map: map,
+  //     animation: google.maps.Animation.DROP,
+  //     title: 'Violet Marketings',
+  //     icon:'violet.png'
+  //   });
+  //
+  //   var marker3 = new google.maps.Marker ({
+  //     position: {lat: 38.766000, lng:  -77.139783},
+  //     map: map,
+  //     animation: google.maps.Animation.DROP,
+  //     title: 'Violet Marketings',
+  //     icon:'violet.png'
+  //   });
+  // }
+  /** /Marker for Google maps ***/
 
 });
 
@@ -206,7 +235,7 @@ $(function(){
     currentSlide--;
     if(currentSlide<0)
     {
-      currentSlide=$('.slides-container').children().length - 1;   
+      currentSlide=$('.slides-container').children().length - 1;
     }
     $('.slides-container').animate({left: -currentSlide*slideWidth},800).data('current',currentSlide);
   })
@@ -217,7 +246,7 @@ $(function(){
     currentSlide++;
     if(currentSlide>=$('.slides-container').children().length)
     {
-      currentSlide=0;   
+      currentSlide=0;
     }
     $('.slides-container').animate({left: -currentSlide*slideWidth},800).data('current',currentSlide);
   })
@@ -228,7 +257,7 @@ function nextSlide(){
   currentSlide++;
   if(currentSlide>=$('.slides-container').children().length)
   {
-    currentSlide=0;   
+    currentSlide=0;
   }
   $('.slides-container').animate({left: -currentSlide*slideWidth},800).data('current',currentSlide);
 }
