@@ -45,7 +45,7 @@
               </span>
           </li>
           <li class="lang">
-              English <span class="divide">/</span>
+            <a href="#">English</a> <span class="divide">/</span> <a href="#">Arabic</a>
           </li>
       </ul>
       <div class="bubble-animation"></div>
@@ -78,7 +78,7 @@
               </div>
               <div class="col-md-3 col-md-offset-2 col-sm-4 mob-to-burger">
                   <div class="lang">
-                     English <span class="divide"></span>
+                    <a href="#">English</a> <span class="divide"></span> <a href="#">Arabic</a>
                   </div>
               </div>
           </div>
@@ -94,6 +94,7 @@
           </div>
       </div>
   </header>
+
 
   <!-- Jumb -->
   <div class='jumb'>
@@ -152,7 +153,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Statement of work.</span> All processes, technology, and tasks should be protocolized. Before we start the project, we need to know every step that will be performed. That is essential for successful deadline management. 
+                    <span class="step-title">Statement of work.</span> All processes, technology, and tasks should be protocolled. Before we start the project, we need to know every step that will be performed. That is essential for successful deadline management.
                   </p>
                 </div>
               </div>
@@ -167,7 +168,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Designs.</span> We start with scratches of almost all pages. UX is our primary focus because that is the main thing that brings leads and sales. Our UI expertise helps us create unique consepts and approaches.
+                    <span class="step-title">Designs.</span> We start with scratches of almost all pages. UX is our primary focus because that is the main thing that brings leads and sales. Our UI expertise helps us create unique concepts and approaches.
                   </p>
                 </div>
               </div>
@@ -182,7 +183,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Development.</span> We start with the back-end. It leaves some schedule space for the brand to play more with some designs issues. After the back end is ready, we proceed to the front-end page-proofs. 
+                    <span class="step-title">Development.</span> We start with the back-end. It leaves some schedule space for the brand to play more with some designs issues. After the back end is ready, we proceed to the front-end page-proofs.
                   </p>
                 </div>
               </div>
@@ -197,7 +198,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Testing and support.</span> We always include the first year of free technical support in our proposal. We know that during these time you will strongly need our help and guidance. We are happy to be helpful. 
+                    <span class="step-title">Testing and support.</span> We always include the first year of free technical support in our proposal. We know that during these time you will strongly need our help and guidance. We are happy to be helpful.
                   </p>
                 </div>
               </div>
@@ -210,10 +211,10 @@
             <div class="marked-block">
               <h2 class="opacity">Know your client</h2>
               <p class="opacity">
-                2017 is a year of mobile. We predict that this year will bring Mobile to the new high of technological and marketing development. More traffic will be mobile, more sales and leads will be generated through smartphones. We are ready for this. 
+                2017 is a year of mobile. We predict that this year will bring Mobile to the new high of technological and marketing development. More traffic will be mobile, more sales and leads will be generated through smartphones. We are ready for this.
               </p>
               <p class="opacity">
-                2018 can be the year of VR - we are preparing for this. We are growing our expertise in the field of virtual reality and artificial intelligence to be just in time with disruptive marketing technologies and new brand experience for your customers. 
+                2018 can be the year of VR - we are preparing for this. We are growing our expertise in the field of virtual reality and artificial intelligence to be just in time with disruptive marketing technologies and new brand experience for your customers.
               </p>
             </div>
             <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>

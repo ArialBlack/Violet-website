@@ -46,7 +46,7 @@
 	            </span>
 	        </li>
 	        <li class="lang">
-	            English <span class="divide">/</span>
+	          <a href="#">English</a> <span class="divide">/</span> <a href="#">Arabic</a>
 	        </li>
 	    </ul>
 	    <div class="bubble-animation"></div>
@@ -79,7 +79,7 @@
 	            </div>
 	            <div class="col-md-3 col-md-offset-2 col-sm-4 mob-to-burger">
 	                <div class="lang">
-	                   English <span class="divide"></span>
+	                  <a href="#">English</a> <span class="divide"></span> <a href="#">Arabic</a>
 	                </div>
 	            </div>
 	        </div>
@@ -95,6 +95,7 @@
 	        </div>
 	    </div>
 	</header>
+
 
 	<main>
 		<div class="left-bg-block"></div>
@@ -263,9 +264,9 @@
 						<div class="col-md-5 col-md-offset-1">
 							<h3 class="opacity">Back office or client’s cabinet.</h3>
 							<p class='fondex-block-text marked opacity'>
-								One of the main parts of brokerage house businesses is a personal cabinet of the client. 
-								We have integrated four payment processors and merchant accounts into the system. 
-								We have huge experience in Fintech website development, so we easily integrated personal cabi-net with five trading platforms. We use API provided by trading platforms to get personal trading statistics of the trader and display it in the proper way through the personal cabinet. 
+								One of the main parts of brokerage house businesses is a personal cabinet of the client.
+								We have integrated four payment processors and merchant accounts into the system.
+								We have huge experience in Fintech website development, so we easily integrated personal cabi-net with five trading platforms. We use API provided by trading platforms to get personal trading statistics of the trader and display it in the proper way through the personal cabinet.
 							</p>
 						</div>
 						<div class="col-md-4 col-md-offset-1">
@@ -292,16 +293,26 @@
 					</div>
 
 					<div class="row">
-						<div class="col-md-6 text-right">
-							<div class="white-rect"><img src="/sites/all/themes/violet_ui/images/fondexx/white_rect.jpg" alt=""></div>
-							<div class="white-rect"><img src="/sites/all/themes/violet_ui/images/fondexx/white_rect.jpg" alt=""></div>
+						<div class="col-xs-6 col-md-offset-0 col-xs-offset-3 text-center second-gallery">
+              <div class="row">
+                <div class="col-md-4 col-xs-6 col-md-offset-3">
+                  <a href="/sites/all/themes/violet_ui/images/fondexx/gallery_imgs_2/1.jpg" data-fancybox="group" data-caption="Caption">
+                    <img src="/sites/all/themes/violet_ui/images/fondexx/gallery_img_2_1.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-md-4 col-xs-6">
+                  <a href="/sites/all/themes/violet_ui/images/fondexx/gallery_imgs_2/2.jpg" data-fancybox="group" data-caption="Caption">
+                    <img src="/sites/all/themes/violet_ui/images/fondexx/gallery_img_2_2.jpg" alt="">
+                  </a>
+                </div>
+              </div>
 						</div>
 						<div class="col-md-6 col-lg-5">
 							<p class='fondex-block-text opacity'>
 								The personal cabinet is also integrated with CRM, SMS confirmation service, etc.
 							</p>
 							<p class='fondex-block-text opacity'>
-								It is based on Python, Django, which proves our total proficiency in different programming lan-guages, approaches, and frameworks. 
+								It is based on Python, Django, which proves our total proficiency in different programming lan-guages, approaches, and frameworks.
 							</p>
 							<p class='fondex-block-text opacity'>
 								The back office contains an enormous amount of business logic that helps the broker to manage its clients’ accounts.
@@ -328,12 +339,12 @@
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
 							<p class="sub-title opacity">
-								That is why Fondexx uses free educational courses and content marketing to engage the best leads. 
+								That is why Fondexx uses free educational courses and content marketing to engage the best leads.
 							</p>
 						</div>
 						<div class="col-md-5">
 							<p class='fondex-block-text opacity'>
-								But financial market is pretty competitive when it comes to the advertising, hundreds of brokers are buying campaigns in Google and other networks, so the costs of CPA/CPC is the highest in the hole world economy. That’s why we spend a lot of time to create highly responsible cost reasonable AdWords setup to ensure the success of the marketing company. 
+								But financial market is pretty competitive when it comes to the advertising, hundreds of brokers are buying campaigns in Google and other networks, so the costs of CPA/CPC is the highest in the hole world economy. That’s why we spend a lot of time to create highly responsible cost reasonable AdWords setup to ensure the success of the marketing company.
 							</p>
 						</div>
 					</div>
@@ -368,7 +379,7 @@
 								<div class="col-md-2 num text-right opacity">1 /</div>
 								<div class="col-md-10">
 									<p class='fondex-block-text marked opacity'>
-										We settled the website due to the most contemporary SEO trends and rules (sitemap, metatags, cross-linking, etc.). 
+										We settled the website due to the most contemporary SEO trends and rules (sitemap, metatags, cross-linking, etc.).
 									</p>
 								</div>
 							</div>
@@ -401,7 +412,7 @@
 					<div class="row">
 						<div class="col-md-11 col-md-offset-1">
 							<p class="sub-title opacity">
-								Adwords campaign is built on low-frequency words strategy. Typically brokers boost their budgets into the ordinary words like «trading» or «stocks». We decided that it is not very reasonable to compete with these old huge competitors in the fields, so we decided to shift into the sphere of more sophisticated trading words - «liquidity», «options», «order flow» etc. this helps us to get more qualified leads, not only newbies and it is the responsibility of sales team to close such hot experienced «buyer». 
+								Adwords campaign is built on low-frequency words strategy. Typically brokers boost their budgets into the ordinary words like «trading» or «stocks». We decided that it is not very reasonable to compete with these old huge competitors in the fields, so we decided to shift into the sphere of more sophisticated trading words - «liquidity», «options», «order flow» etc. this helps us to get more qualified leads, not only newbies and it is the responsibility of sales team to close such hot experienced «buyer».
 							</p>
 						</div>
 					</div>
@@ -459,7 +470,7 @@
 					<div class="row">
 						<div class="col-md-11 col-md-offset-1">
 							<p class="sub-title opacity">
-								Reputation is the essential part of the financial institution. 
+								Reputation is the essential part of the financial institution.
 							</p>
 						</div>
 						<div class="col-md-10 col-md-offset-1">

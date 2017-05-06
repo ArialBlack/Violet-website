@@ -45,7 +45,7 @@
               </span>
           </li>
           <li class="lang">
-              English <span class="divide">/</span>
+            <a href="#">English</a> <span class="divide">/</span> <a href="#">Arabic</a>
           </li>
       </ul>
       <div class="bubble-animation"></div>
@@ -78,7 +78,7 @@
               </div>
               <div class="col-md-3 col-md-offset-2 col-sm-4 mob-to-burger">
                   <div class="lang">
-                     English <span class="divide"></span>
+                    <a href="#">English</a> <span class="divide"></span> <a href="#">Arabic</a>
                   </div>
               </div>
           </div>
@@ -95,6 +95,7 @@
       </div>
   </header>
 
+
   <!-- Jumb -->
   <div class='jumb'>
     <div class='container'>
@@ -106,7 +107,7 @@
           </div>
           <h1 class="opacity">smm</h1>
           <p class='jumb-descr opacity'>
-            Facebook, Snapchat, Instagram, Youtube, Twitter, Linkedin are incredibly powerful marketing plat-forms. Due toour study – people spend more the 30%of the dayat social networks. Online media tools provide you not only great interaction possibilities - but they also enable smart targeting, so your advertisement can be efficient as never before.
+            Facebook, Snapchat, Instagram, Youtube, Twitter, Linkedin are incredibly powerful marketing platforms. Due to our study – people spend more than 30% of the day at social networks. Online media tools provide you not only great interaction possibilities - but they also enable smart targeting, so your advertisement can be efficient as never before.
           </p>
         </div>
       </div>
@@ -134,7 +135,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Initial steps.</span> Firstly, we need to create your social media pages, set everything right. Secondly, we need to invent content plan which will reflect our SMM strategy. Thirdly, we need to start devel-oping social engineering tools like contests and viral content to ensure high levels of user interac-tion.
+                    <span class="step-title">Initial steps.</span> Firstly, we need to create your social media pages, set everything right. Secondly, we need to invent content plan which will reflect our SMM strategy. Thirdly, we need to start developing social engineering tools like contests and viral content to ensure high levels of user interac-tion.
                   </p>
                 </div>
               </div>
@@ -149,7 +150,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Pages.</span> Pages should be interesting, fresh and funny. In social media, people love the beautiful and funny stuff. Customers are relaxing and communicating on Facebook and Instagram, don't bother them with mind games.   
+                    <span class="step-title">Pages.</span> Pages should be interesting, fresh and funny. In social media, people love the beautiful and funny stuff. Customers are relaxing and communicating on Facebook and Instagram, don't bother them with mind games.
                   </p>
                 </div>
               </div>
@@ -179,7 +180,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Trends.</span> Every day, the world is discussing the new problem or event. If your brand is global or somehow related to one of the theme, do not hesitate to use this opportunity to get more user in-teraction. Ask questions, post interesting, unique info. People love infographics. 
+                    <span class="step-title">Trends.</span> Every day, the world is discussing the new problem or event. If your brand is global or somehow related to one of the theme, do not hesitate to use this opportunity to get more user interaction. Ask questions, post interesting, unique info. People love infographics.
                   </p>
                 </div>
               </div>
@@ -194,7 +195,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Viral.</span> We are lucky to create two successful viral campaigns. It was difficult, but the results were incredible. Viral content makes miracles to the brand - your lead interaction will be as cheap as sand, everybody will know about your company and services, but you should care if they will actu-ally like it. 
+                    <span class="step-title">Viral.</span> We are lucky to create two successful viral campaigns. It was difficult, but the results were incredible. Viral content makes miracles to the brand - your lead interaction will be as cheap as sand, everybody will know about your company and services, but you should care if they will actually like it.
                   </p>
                 </div>
               </div>
@@ -207,14 +208,14 @@
             <div class="marked-block">
               <h2 class="opacity">Why social media is important to your brand:</h2>
               <p class="opacity">
-                Website SEO ranking. Social sites have one of the highest ranks in world internet rankings. So having the links to your site at top social networks will boost your rank. More links - better rank; better rank - more organic Google traffic. 
+                Website SEO ranking. Social sites have one of the highest ranks in world internet rankings. So having the links to your site at top social networks will boost your rank. More links - better rank; better rank - more organic Google traffic.
               </p>
               <p class="opacity">
-                In-person interaction. Social media helps your customers feel that your brand is near to them, just on their phone. Clients can ask your support team important questions staying at their Facebook homepage.  
+                In-person interaction. Social media helps your customers feel that your brand is near to them, just on their phone. Clients can ask your support team important questions staying at their Facebook homepage.
               </p>
               <p class="opacity">
-                Great CPA possibilities. One of our customers now spends about 0,70 cent per lead, using Face-book advertising. The industry standard for his competitive financial sphere is 10$. Social media can make your marketing cost-effective like never before.
-              </p> 
+                Great CPA possibilities. One of our customers now spends about 0,70 cent per lead, using Facebook advertising. The industry standard for his competitive financial sphere is 10$. Social media can make your marketing cost-effective like never before.
+              </p>
             </div>
             <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
           </div>
