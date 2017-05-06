@@ -60,12 +60,6 @@ function _client_submit_handler(&$form, &$form_state) {
     $form_state['redirect'] = '/thank-you';
 }
 
-function violet_webform_submission_insert($node, $submission) {
-    // Insert a record into a 3rd-party module table when a submission is added.
-    drupal_goto("/thank-you", array('external' => TRUE));
-}
-
-
 function ggproject_after_build($form, &$form_state) {
    // $form['path']['pathauto'] = FALSE;
   //  return ($form);
