@@ -7,10 +7,10 @@
   <title>Arabic! | Violet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-  <!--(bake parts/favicon.html)-->
+  <!--(bake parts/head.php)-->
 </head>
 <body class="arabic">
-<!--(bake parts/nav-and-header.html)-->
+<!--(bake parts/nav-and-header.php)-->
 <main>
   <div class="container">
     <div class="thank-you-block">
@@ -22,6 +22,6 @@
     </div>
   </div>
 </main>
-<!--(bake parts/footer.html)-->
+<!--(bake parts/footer.php)-->
 </body>
 </html>

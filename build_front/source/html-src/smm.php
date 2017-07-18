@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Marketing Strategy | Violet</title>
+  <title>SMM | Violet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-  <!--(bake parts/favicon.html)-->
+  <!--(bake parts/head.php)-->
 </head>
 
-<body class='typical-page strategy'>
-  <!--(bake parts/nav-and-header.html)-->
+<body class='typical-page smm'>
+  <!--(bake parts/nav-and-header.php)-->
 
   <!-- Jumb -->
   <div class='jumb'>
@@ -20,11 +20,11 @@
       <div class="row">
         <div class="col-md-11 col-md-offset-1">
           <div class="page-logo opacity">
-            <img src="/sites/all/themes/violet_ui/images/strategy/strategy_logo.png" alt="" class="jumb-logo">
+            <img src="/sites/all/themes/violet_ui/images/smm/smm_logo.png" alt="" class="jumb-logo">
           </div>
-          <h1 class="opacity">Marketing strategy</h1>
+          <h1 class="opacity">smm</h1>
           <p class='jumb-descr opacity'>
-            Any successful plan is based on the facts and new ideas. Our task is to study your business, your market, and your competitors. We use sociology, trend watching, and big data analysis to collect facts. We use your story to create ideas. With facts and ideas, we can work with your customer's behavior and minds.
+            Facebook, Snapchat, Instagram, Youtube, Twitter, Linkedin are incredibly powerful marketing platforms. Due to our study – people spend more than 30% of the day at social networks. Online media tools provide you not only great interaction possibilities - but they also enable smart targeting, so your advertisement can be efficient as never before.
           </p>
         </div>
       </div>
@@ -42,7 +42,7 @@
 
           <!-- Left main -->
           <div class='col-md-6 col-md-offset-1'>
-            <h2 class="opacity">5 steps of Marketing strategy creation:</h2>
+            <h2 class="opacity">5 steps to get SMM done:</h2>
             <div class="step-block">
               <div class='row'>
                 <div class='col-md-4'>
@@ -52,7 +52,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Market research.</span> We collect the maximum amount of data and analyze it. Our goal is to find out – what are the typical marketing tools in this market, in this country and abroad. What are the average CTR, CPA prices? How the audience get used to reacting to different content types etc.
+                    <span class="step-title">Initial steps.</span> Firstly, we need to create your social media pages, set everything right. Secondly, we need to invent content plan which will reflect our SMM strategy. Thirdly, we need to start developing social engineering tools like contests and viral content to ensure high levels of user interac-tion.
                   </p>
                 </div>
               </div>
@@ -67,7 +67,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Market positioning and goal planning.</span> Together with the client, we develop the stories, a brand should tell the customers, with any piece of marketing efforts. At this stage, we decide what market share we want to reach.
+                    <span class="step-title">Pages.</span> Pages should be interesting, fresh and funny. In social media, people love the beautiful and funny stuff. Customers are relaxing and communicating on Facebook and Instagram, don't bother them with mind games.
                   </p>
                 </div>
               </div>
@@ -82,7 +82,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Tools.</span> At this step, we select which tools will be more efficient in achieving our goals. We use our experience, competitive cases, and Google data analysis to make the proper decision.
+                    <span class="step-title">Content.</span> Your content plan should contain viral themes, jokes, interesting facts, contests, and videos. Lot's of a video. The video is the new king of content.
                   </p>
                 </div>
               </div>
@@ -97,7 +97,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Workflow and budget planning.</span> The strategy needs tactics, so we are creating weekly plan having every single step written on the paper.
+                    <span class="step-title">Trends.</span> Every day, the world is discussing the new problem or event. If your brand is global or somehow related to one of the theme, do not hesitate to use this opportunity to get more user interaction. Ask questions, post interesting, unique info. People love infographics.
                   </p>
                 </div>
               </div>
@@ -112,7 +112,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Remarketing by all means.</span> We base our strategy on data, and we should always collect more data about your customers. So we are constantly monitoring the feedback and preliminary results of the strategy to implement some changes, perform additional tests and calibrate our strategy to get “best in class” results.
+                    <span class="step-title">Viral.</span> We are lucky to create two successful viral campaigns. It was difficult, but the results were incredible. Viral content makes miracles to the brand - your lead interaction will be as cheap as sand, everybody will know about your company and services, but you should care if they will actually like it.
                   </p>
                 </div>
               </div>
@@ -123,18 +123,15 @@
           <!-- Right-main -->
           <div class='col-md-4 col-md-offset-1'>
             <div class="marked-block">
-              <h2 class="opacity">Know your client</h2>
+              <h2 class="opacity">Why social media is important to your brand:</h2>
               <p class="opacity">
-                There are three essential issues any marketing strategy should always include:
+                Website SEO ranking. Social sites have one of the highest ranks in world internet rankings. So having the links to your site at top social networks will boost your rank. More links - better rank; better rank - more organic Google traffic.
               </p>
               <p class="opacity">
-                UX design thinking – you need to understand your customer. Who is he? What does he want? How he pay or buy? How he makes a decision?
+                In-person interaction. Social media helps your customers feel that your brand is near to them, just on their phone. Clients can ask your support team important questions staying at their Facebook homepage.
               </p>
               <p class="opacity">
-                A/B testing - you need to make several tries, few tests to build the most cost-effective marketing model.
-              </p>
-              <p class="opacity">
-                Reputation – your marketing strategy should be gentle and smart. Reputation is something that is made with time and hard work. We are pros at building a reputation online.
+                Great CPA possibilities. One of our customers now spends about 0,70 cent per lead, using Facebook advertising. The industry standard for his competitive financial sphere is 10$. Social media can make your marketing cost-effective like never before.
               </p>
             </div>
             <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
@@ -145,26 +142,26 @@
     </div>
     <!-- /Steps -->
 
-    <!--(bake parts/case-studies.html)-->
+    <!--(bake parts/case-studies.php)-->
 
     <!-- Pages-pagination -->
     <div class="pages-pagination">
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-xs-6 prev-page">
-            <a href='/advertising' class="page-title pull-right">
-              Contextual advertising
+            <a href='/seo' class="page-title pull-right">
+              SEO
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/branding/advertising_nav.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/seo/seo_logo.png" alt="">
               </span>
             </a>
           </div>
           <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-            <a href='/branding' class="page-title pull-left">
+            <a href='/mail-marketing' class="page-title pull-left">
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/branding/branding_nav.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/mail-marketing/marketing_logo.png" alt="">
               </span>
-              Branding
+              E-mail Marketing
             </a>
           </div>
         </div>
@@ -173,6 +170,6 @@
     <!-- /Pages-pagination -->
   </main>
 
-  <!--(bake parts/footer.html)-->
+  <!--(bake parts/footer.php)-->
 </body>
 </html>

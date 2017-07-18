@@ -7,12 +7,12 @@
     <ul class="mobile-nav">
         <li>
             <span class='contact-item'>
-                <span>Phone&nbsp;:</span>&nbsp;<a href="tel: +966549494991">+ 966&nbsp;54&nbsp;949&nbsp;49&nbsp;91</a>
+                <span>Phone&nbsp;:</span>&nbsp;<a href="tel:<?php print variable_get('violet_tel_num');?>"><?php print variable_get('violet_tel_text');?></a>
             </span>
         </li>
         <li>
             <span class="contact-item">
-                <span>Skype&nbsp;:</span>&nbsp;<a href="skype: violet.marketing">violet.marketing</a>
+                <span>Skype&nbsp;:</span>&nbsp;<a href="skype:<?php print variable_get('violet_skype');?>"><?php print variable_get('violet_skype');?></a>
             </span>
         </li>
         <li class="lang">
@@ -32,11 +32,11 @@
             <div class="col-md-5 col-sm-8 mob-to-burger">
                 <div class="contacts">
                         <span class='contact-item'>
-                            <span>Phone&nbsp;:</span>&nbsp;<a href="tel: +966549494991">+ 966&nbsp;54&nbsp;949&nbsp;49&nbsp;91</a>
+                            <span>Phone&nbsp;:</span>&nbsp;<a href="tel:<?php print variable_get('violet_tel_num');?>"><?php print variable_get('violet_tel_text');?></a>
                         </span>
                     <span class="devide-contacts">&nbsp; | &nbsp;</span>
                         <span class="contact-item">
-                            <span>Skype&nbsp;:</span>&nbsp;<a href="skype: violet.marketing">violet.marketing</a>
+                            <span>Skype&nbsp;:</span>&nbsp;<a href="skype:<?php print variable_get('violet_skype');?>"><?php print variable_get('violet_skype');?></a>
                         </span>
                 </div>
             </div>

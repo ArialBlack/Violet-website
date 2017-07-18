@@ -7,11 +7,11 @@
 	<title>Comps | Violet</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-	<!--(bake parts/favicon.html)-->
+	<!--(bake parts/head.php)-->
 </head>
 
 <body class='comps'>
-<!--(bake parts/nav-and-header.html)-->
+<!--(bake parts/nav-and-header.php)-->
 
 	<main>
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 283.5 283.5" style="enable-background:new 0 0 283.5 283.5;" xml:space="preserve"  class="svg-right-rect">
@@ -148,6 +148,6 @@
 		</div>
 	</main>
 
-	<!--(bake parts/footer.html)-->
+	<!--(bake parts/footer.php)-->
 </body>
 </html>

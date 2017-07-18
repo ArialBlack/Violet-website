@@ -6,7 +6,7 @@
 
 module_load_include('inc', 'violet', 'violet.adminmessages');
 
-function ggproject_menu(){
+function violet_menu(){
     $items=array();
 
     $items['admin/violet/labels'] = array(
@@ -35,7 +35,7 @@ function violet_block_info() {
 /**
 * Implements hook_block_view().
 */
-function ggproject_block_view($delta = '') {
+function violet_block_view($delta = '') {
   $block = array();
 
   switch ($delta) {
@@ -60,7 +60,7 @@ function _client_submit_handler(&$form, &$form_state) {
     $form_state['redirect'] = '/thank-you';
 }
 
-function ggproject_after_build($form, &$form_state) {
+function violet_after_build($form, &$form_state) {
    // $form['path']['pathauto'] = FALSE;
   //  return ($form);
 }

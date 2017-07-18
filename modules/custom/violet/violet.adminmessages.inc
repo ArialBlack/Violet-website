@@ -1,18 +1,25 @@
 <?php
 
 function violet_admin_labels_form($form, &$form_state){
-    $form['tel_title'] = array(
+    $form['violet_tel_num'] = array(
         '#type' => 'textfield',
-        '#title' => t('Tel'),
+        '#title' => t('Tel num'),
         '#required' => TRUE,
-        '#default_value' => variable_get('tel_title', '+38 044 586 98 42'),
+        '#default_value' => variable_get('violet_tel_num', '+ 966549494991'),
     );
 
-    $form['email_title'] = array(
+    $form['violet_tel_text'] = array(
         '#type' => 'textfield',
-        '#title' => t('Email'),
+        '#title' => t('Tel text'),
         '#required' => TRUE,
-        '#default_value' => variable_get('email_title', '_@gmail.com'),
+        '#default_value' => variable_get('violet_tel_text', '+ 966 54 949 49 91'),
+    );
+
+    $form['violet_skype'] = array(
+        '#type' => 'textfield',
+        '#title' => t('Skype'),
+        '#required' => TRUE,
+        '#default_value' => variable_get('violet_skype', 'violet.marketing'),
     );
 
     return system_settings_form($form);

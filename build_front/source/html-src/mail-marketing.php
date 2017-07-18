@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Branding | Violet</title>
+  <title>E-mail Marketing | Violet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-  <!--(bake parts/favicon.html)-->
+  <!--(bake parts/head.php)-->
 </head>
-<body class="typical-page branding">
-<!--(bake parts/nav-and-header.html)-->
+<body class="typical-page mail-marketing">
+  <!--(bake parts/nav-and-header.php)-->
 
 <!-- Jumb -->
 <div class='jumb'>
@@ -19,18 +19,20 @@
     <div class="row">
       <div class="col-md-11 col-md-offset-1">
         <div class="page-logo opacity">
-          <img src="/sites/all/themes/violet_ui/images/branding/branding_logo.png" alt="" class="jumb-logo">
+          <img src="/sites/all/themes/violet_ui/images/mail-marketing/marketing_logo.png" alt="" class="jumb-logo">
         </div>
-        <h1 class="opacity">branding</h1>
+        <h1 class="opacity">E-mail Marketing</h1>
+        <!--<p class='marked jumb-attention'>Dear sir,</p>-->
         <p class='jumb-descr opacity'>
-          The first impression is the most important. Your logo, your business card, your presentation - all matters a lot. So, of course, our job is to make it perfect. But your story, your future - is something that is more important.
-          Our job is to make people see it.
+          Emails are the essential part ofany business process. More formal than social media discourse, the language of emails shows your professionalism, your intelligence, and your culture. Email mar-keting is the unique technique, that can bring additional sales to your company. It holds your cli-ents more connected to your brand.
         </p>
+        <!--<p class='marked jumb-attention opacity'>Have a good day!</p>-->
       </div>
     </div>
-  </div>
+    </div>
   </div>
 </div>
+<!-- /Jumb -->
 
 <main>
   <!-- Steps -->
@@ -41,7 +43,7 @@
 
         <!-- Left main -->
         <div class='col-md-6 col-md-offset-1'>
-          <h2 class="opacity">5 steps to get branding done:</h2>
+          <h2 class="opacity">5 steps to email marketing:</h2>
           <div class="step-block">
             <div class='row'>
               <div class='col-md-4'>
@@ -51,7 +53,7 @@
               </div>
               <div class='col-md-8'>
                 <p class='step-descr opacity'>
-                  <span class="step-title">Your mission, story, idea.</span> We always start with the first impression and small talk. Every business, every product is codified in the customers’ minds in some particular manner. Our job is to listen to your story and create visual code that will reflect in your client’s opinion and impression.
+                  <span class="step-title">Technology.</span> Several online services help businesses manage emails. These services show the statistics of email opening, help to avoid spam filters, help to automatize the mass mailing.
                 </p>
               </div>
             </div>
@@ -66,7 +68,7 @@
               </div>
               <div class='col-md-8'>
                 <p class='step-descr opacity'>
-                  <span class="step-title">Logo.</span> Modern logos are sharp, strict, font-based, and future-oriented. Logo should be cool. Really.
+                  <span class="step-title">Approach.</span> There are two common strategies: companies try to be or formal and strict, or friendly and charming. We love to be attractive and open-minded. 
                 </p>
               </div>
             </div>
@@ -81,7 +83,8 @@
               </div>
               <div class='col-md-8'>
                 <p class='step-descr opacity'>
-                  <span class="step-title">Firm style.</span> We are experienced creating such corporate designs like visit cards, corporate presentation, envelopes, folders, business proposals, etc.
+                  <span class="step-title">Copywrite.</span> It is an extraordinary art of creating email texts. Sentence volumes, funny words, warmness, facts, main call to action - all should be perfectly packaged in your email. 
+
                 </p>
               </div>
             </div>
@@ -96,7 +99,7 @@
               </div>
               <div class='col-md-8'>
                 <p class='step-descr opacity'>
-                  <span class="step-title">Brand book or guideline.</span> Great brands need some special widespread guidance about the ways corporate colors, logo, and fonts should be used.
+                  <span class="step-title">Design.</span> Corporate emails can be designed and filled with useful animation and even videos. It's convenient for you customer to get all content directly in his email account.
                 </p>
               </div>
             </div>
@@ -111,7 +114,7 @@
               </div>
               <div class='col-md-8'>
                 <p class='step-descr opacity'>
-                  <span class="step-title">Custom branding.</span> We are profound in video editing, creating packaging designs, territory branding for events, publishing processes.
+                  <span class="step-title">A/B testing and going live.</span> Having proper technologies on your side, we can easily perform several iterations on testing. It helps us to see what emails are opened more, what design sells, it helps collect useful data. And as we already know - modern marketing is all about data.
                 </p>
               </div>
             </div>
@@ -122,16 +125,13 @@
         <!-- Right-main -->
         <div class='col-md-4 col-md-offset-1'>
           <div class="marked-block">
-            <h2 class="opacity">Trends &amp; brands </h2>
+            <h2 class="opacity">Personal brand strategy and emails: </h2>
             <p class="opacity">
-              Products are made at the factory. But brands are created in the minds. (Walter Landor).
+              Email marketing can become a powerful tool in the hands of skillful professional. We recommend using personal non-formal communication that goes directly from the CEO of your company. 
+              Such emails perform excellent work in b2b business, especially services and different types of consulting. Customers always appreciate when the enterprise's primary person addresses the email directly.
             </p>
             <p class="opacity">
-              Brands are the client’s experience of using the product, customer’s opinion, company’s reputation.
-            </p>
-            <p class="opacity">
-              Word of mouth advertising is essential in our approach. While creating and implementing marketing strategy, we focus on your brand’s image. Modern brands use big data analysis, focus groups and A/B testing procedures to ensure success.<br>
-              We help them.
+              But relaxed approach should not be unceremonious. Business emails should be warm, kind, pro-fessional and laconic. 
             </p>
           </div>
           <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
@@ -142,26 +142,26 @@
   </div>
   <!-- /Steps -->
 
-  <!--(bake parts/case-studies.html)-->
+  <!--(bake parts/case-studies.php)-->
 
   <!-- Pages-pagination -->
   <div class="pages-pagination">
     <div class="container">
       <div class="row">
         <div class="col-sm-5 col-xs-6 prev-page">
-          <a href='/strategy' class="page-title pull-right">
-            Marketing Strategy
+          <a href='/smm' class="page-title pull-right">
+            SMM
             <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/strategy/strategy_logo.png" alt="">
-              </span>
+              <img src="/sites/all/themes/violet_ui/images/smm/smm_logo.png" alt="">
+            </span>
           </a>
         </div>
         <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-          <a href='/design' class="page-title pull-left">
-              <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/design/design_logo.png" alt="">
-              </span>
-            Web design
+          <a href='/advertising' class="page-title pull-left">
+            <span class="logo-page">
+              <img src="/sites/all/themes/violet_ui/images/branding/advertising_nav.png" alt="">
+            </span>
+            Contextual advertising
           </a>
         </div>
       </div>
@@ -171,6 +171,6 @@
 
 </main>
 
-<!--(bake parts/footer.html)-->
+  <!--(bake parts/footer.php)-->
 </body>
 </html>

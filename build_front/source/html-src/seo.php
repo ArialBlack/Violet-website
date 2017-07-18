@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Web Design | Violet</title>
+  <title>SEO | Violet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-  <!--(bake parts/favicon.html)-->
+  <!--(bake parts/head.php)-->
 </head>
 
-<body class='typical-page web-design'>
-  <!--(bake parts/nav-and-header.html)-->
+<body class='typical-page seo'>
+  <!--(bake parts/nav-and-header.php)-->
 
   <!-- Jumb -->
   <div class='jumb'>
@@ -20,14 +20,11 @@
       <div class="row">
         <div class="col-md-11 col-md-offset-1">
           <div class="page-logo opacity">
-            <img src="/sites/all/themes/violet_ui/images/design/design_logo.png" alt="" class="jumb-logo">
+            <img src="/sites/all/themes/violet_ui/images/seo/seo_logo.png" alt="" class="jumb-logo">
           </div>
-          <h1 class="opacity">Web design and development</h1>
+          <h1 class="opacity">SEO</h1>
           <p class='jumb-descr opacity'>
-            We design and build websites. <br>
-            We love clean, white, animated websites. <br>
-            But we also love colors and powerful emotions. <br>
-            What do you like?
+            Your website search engine optimization is the key factor of successful online presence. Our job is to make it easy for your customers, and, on the other side, easier for Google algorithms to find your website. It is also essential that robots will see meta tags and sitemap, organized in a proper manner. 
           </p>
         </div>
       </div>
@@ -45,7 +42,7 @@
 
           <!-- Left main -->
           <div class='col-md-6 col-md-offset-1'>
-            <h2 class="opacity">How we create the websites:</h2>
+            <h2 class="opacity">Five steps to getting SEO done:</h2>
             <div class="step-block">
               <div class='row'>
                 <div class='col-md-4'>
@@ -55,7 +52,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Idea.</span> We listen to you. We gather a lot of references. References are the similar websites from all over the world. We are proposing you our approach and the way we will develop the website.
+                    <span class="step-title">Analysis.</span> We analyze what, you have for the moment. Existing website, your competitors, all websites and portal in your niche.
                   </p>
                 </div>
               </div>
@@ -70,7 +67,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Statement of work.</span> All processes, technology, and tasks should be protocolled. Before we start the project, we need to know every step that will be performed. That is essential for successful deadline management.
+                    <span class="step-title">SOW for the website.</span> We create a statement of work - our written strategy with specific tasks and rules that should be implemented into the site, and your marketing strategy to succeed in the art of search engine optimization.  
                   </p>
                 </div>
               </div>
@@ -85,7 +82,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Designs.</span> We start with scratches of almost all pages. UX is our primary focus because that is the main thing that brings leads and sales. Our UI expertise helps us create unique concepts and approaches.
+                    <span class="step-title">Website optimization.</span> Our web developers are performing the tasks from SEO statement of work. We set meta tags, we close particular pages from the eyes of robots, we handle redirects, etc.  
                   </p>
                 </div>
               </div>
@@ -100,7 +97,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Development.</span> We start with the back-end. It leaves some schedule space for the brand to play more with some designs issues. After the back end is ready, we proceed to the front-end page-proofs.
+                    <span class="step-title">Links strategy.</span> Links still matters. But you do not need to buy them. We know how to get the most relevant and robust links to make you rank higher. 
                   </p>
                 </div>
               </div>
@@ -115,7 +112,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Testing and support.</span> We always include the first year of free technical support in our proposal. We know that during these time you will strongly need our help and guidance. We are happy to be helpful.
+                    <span class="step-title">Content creation.</span> Content is the new king of the web. Algorithms are tracking the volume of proper words at your website. To show you in search exposure. We are creating the blog posts for corporate websites, product pages, and brands content projects. 
                   </p>
                 </div>
               </div>
@@ -126,13 +123,16 @@
           <!-- Right-main -->
           <div class='col-md-4 col-md-offset-1'>
             <div class="marked-block">
-              <h2 class="opacity">Know your client</h2>
+              <h2 class="opacity">How SEO evolved to these days:</h2>
               <p class="opacity">
-                2017 is a year of mobile. We predict that this year will bring Mobile to the new high of technological and marketing development. More traffic will be mobile, more sales and leads will be generated through smartphones. We are ready for this.
+                Firstly, it was easy. All that was needed to get your page highly ranked - more links to your website. So SEO specialists were just buying links. It was easy. 
               </p>
               <p class="opacity">
-                2018 can be the year of VR - we are preparing for this. We are growing our expertise in the field of virtual reality and artificial intelligence to be just in time with disruptive marketing technologies and new brand experience for your customers.
+                But, that led to mistakes and frauds in search extradition. So Google engines were rebuilt. From that moment the primary goal of these algorithms was to show internet user exactly the content, he is looking for. 
               </p>
+              <p class="opacity">
+                Today, almost every quarter algorithms are changing, but, thankfully - not significant. Our job is to follow the changes and adapt your SEO impose to new rules, to make you the number one.
+              </p> 
             </div>
             <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
           </div>
@@ -142,35 +142,34 @@
     </div>
     <!-- /Steps -->
 
-    <!--(bake parts/case-studies.html)-->
+    <!--(bake parts/case-studies.php)-->
 
     <!-- Pages-pagination -->
     <div class="pages-pagination">
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-xs-6 prev-page">
-            <a href='/branding' class="page-title pull-right">
-              Branding
+            <a href='/mobile-marketing' class="page-title pull-right">
+              Mobile marketing
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/branding/advertising_nav.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/mob-marketing/marketing_logo.png" alt="">
               </span>
             </a>
           </div>
           <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-            <a href='/mobile-marketing' class="page-title pull-left">
+            <a href='/smm' class="page-title pull-left">
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/mob-marketing/marketing_logo.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/smm/smm_logo.png" alt="">
               </span>
-              Mobile marketing
+              SMM
             </a>
           </div>
         </div>
       </div>
     </div>
     <!-- /Pages-pagination -->
-
   </main>
 
-  <!--(bake parts/footer.html)-->
+  <!--(bake parts/footer.php)-->
 </body>
 </html>

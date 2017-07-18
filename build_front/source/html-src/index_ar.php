@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta charset="utf-8">
@@ -7,11 +7,15 @@
     <title>Violet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-    <!--(bake parts/favicon.html)-->
+    <!--(bake parts/head.php)-->
 </head>
 <body class="page-main">
 
-<!--(bake parts/nav-and-header.html)-->
+<!--(bake parts/nav-and-header.php)-->
+
+<?php
+    $node = node_load(22);
+?>
 
 <div class="jumb text-center">
     <div class="container">
@@ -44,7 +48,7 @@
                 <div class="approach">
                     <div class="row">
                         <div class="text-center">
-                            <h2 class="opacity">Our approach :</h2>
+                            <h2 class="opacity"><?php print $node->body['und'][0]['value']; ?></h2>
                         </div>
                     </div>
 
@@ -53,15 +57,10 @@
                         <div class="approach-block">
                             <div class="row">
                                 <div class="col-md-3 col-sm-4">
-                                    <h4 class="opacity">
-                                        Inventing brand’s digital strategy
-                                    </h4>
+                                    <h4 class="opacity" dir='rtl'><?php print $node->body['und'][1]['value']; ?></h4>
                                 </div>
                                 <div class="col-lg-6 col-sm-7 col-sm-offset-1">
-                                    <p class="opacity">
-                                        We listen. We study the market, study client’s business. We hear your needs and troubles.
-                                        We help our clients with finding problem zones. We help our customers with goal-settings and defining which tools will bring more results. We form the content and logic map of the project. We create detailed marketing roadmap plan.
-                                    </p>
+                                    <p class="opacity" dir='rtl'><?php print $node->body['und'][2]['value']; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -257,6 +256,6 @@
             </div>
     </main>
 
-    <!--(bake parts/footer.html)-->
+    <!--(bake parts/footer.php)-->
 </body>
 </html>

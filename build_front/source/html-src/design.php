@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Mobile marketing | Violet</title>
+  <title>Web Design | Violet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-  <!--(bake parts/favicon.html)-->
+  <!--(bake parts/head.php)-->
 </head>
 
-<body class='typical-page mobile-marketing'>
-  <!--(bake parts/nav-and-header.html)-->
+<body class='typical-page web-design'>
+  <!--(bake parts/nav-and-header.php)-->
 
   <!-- Jumb -->
   <div class='jumb'>
@@ -20,11 +20,14 @@
       <div class="row">
         <div class="col-md-11 col-md-offset-1">
           <div class="page-logo opacity">
-            <img src="/sites/all/themes/violet_ui/images/mob-marketing/marketing_logo.png" alt="" class="jumb-logo">
+            <img src="/sites/all/themes/violet_ui/images/design/design_logo.png" alt="" class="jumb-logo">
           </div>
-          <h1 class="opacity">Mobile marketing</h1>
+          <h1 class="opacity">Web design and development</h1>
           <p class='jumb-descr opacity'>
-            Mobile users are not like all customers. They are young and open-minded. These users have profiles with their social media. Such profiles open tremendous opportunities in marketing and online advertising, helping target particular groups of people.
+            We design and build websites. <br>
+            We love clean, white, animated websites. <br>
+            But we also love colors and powerful emotions. <br>
+            What do you like?
           </p>
         </div>
       </div>
@@ -42,7 +45,7 @@
 
           <!-- Left main -->
           <div class='col-md-6 col-md-offset-1'>
-            <h2 class="opacity">5 steps into the mobile:</h2>
+            <h2 class="opacity">How we create the websites:</h2>
             <div class="step-block">
               <div class='row'>
                 <div class='col-md-4'>
@@ -52,7 +55,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Target audience.</span> Brand should pay particular attention to his target audience. An appropriately chosen group of customers will make your marketing strategy more cost-effective.
+                    <span class="step-title">Idea.</span> We listen to you. We gather a lot of references. References are the similar websites from all over the world. We are proposing you our approach and the way we will develop the website.
                   </p>
                 </div>
               </div>
@@ -67,7 +70,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Ad design.</span> We know how to create catchy ads, how to get more than "industry median click rate." Banner design and copywriting are incredibly important! 
+                    <span class="step-title">Statement of work.</span> All processes, technology, and tasks should be protocolled. Before we start the project, we need to know every step that will be performed. That is essential for successful deadline management.
                   </p>
                 </div>
               </div>
@@ -82,7 +85,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Campaign schedule.</span> Even mobile marketing requires the systematic approach and budget plan. You should test and study your activation period. Having this data will help you invest money in marketing wiser.
+                    <span class="step-title">Designs.</span> We start with scratches of almost all pages. UX is our primary focus because that is the main thing that brings leads and sales. Our UI expertise helps us create unique concepts and approaches.
                   </p>
                 </div>
               </div>
@@ -97,7 +100,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">First iteration.</span> During the first iteration, most of your investments in mobile marketing should collect you the data. You should spend less but know more. 
+                    <span class="step-title">Development.</span> We start with the back-end. It leaves some schedule space for the brand to play more with some designs issues. After the back end is ready, we proceed to the front-end page-proofs.
                   </p>
                 </div>
               </div>
@@ -112,7 +115,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Second iteration.</span> After receiving first statistically substantial results, we can edit our ad settings to get better CPA. Only at this stage, we are boosting budgets because we know how they will pay back. 
+                    <span class="step-title">Testing and support.</span> We always include the first year of free technical support in our proposal. We know that during these time you will strongly need our help and guidance. We are happy to be helpful.
                   </p>
                 </div>
               </div>
@@ -123,23 +126,12 @@
           <!-- Right-main -->
           <div class='col-md-4 col-md-offset-1'>
             <div class="marked-block">
-              <h2 class="opacity">Last trends in mobile marketing</h2>
+              <h2 class="opacity">Know your client</h2>
               <p class="opacity">
-                Mobile marketing can not only sell and engage users. It collects data. With good data, you can reach clients better and just earn more.
+                2017 is a year of mobile. We predict that this year will bring Mobile to the new high of technological and marketing development. More traffic will be mobile, more sales and leads will be generated through smartphones. We are ready for this.
               </p>
               <p class="opacity">
-                <span class="marked">Applications.</span> Apps are earning more and more money, while even «free to play» of them generate millions of revenues. Any business can have an app: is it fitness trainer, or bank; legal advisor or car store. Applications open the new way of entertaining the audience with new edge experience. Mobile phones can become your agent in the hands of your client now.
-              </p>
-              <p class="opacity">
-                <span class="marked">Video advertising.</span> Money is flowing away from TV and offline ads - into the digital sphere. Mobile video advertising was huge in 2016: 75% of video watched via Facebook were watched through mobile devices. Note: it's better to have short 1-3 minutes video than 16-30 minutes movies. 
-              </p>
-              <p class="notice opacity">
-                You can also use a Bluetooth
-                device to communicate with your
-                customer in certain locations. 
-              </p>
-              <p class="opacity">
-                <span class="marked">The future is mobile.</span> If your business is not mobile, well… we can help you. Did you know that EBAY just opened new grocery store without cashboxes? They are just tracking their client's mobile devices and count what products were bought with video cameras and artificial intelligence. Are your business in your customer’s devices?
+                2018 can be the year of VR - we are preparing for this. We are growing our expertise in the field of virtual reality and artificial intelligence to be just in time with disruptive marketing technologies and new brand experience for your customers.
               </p>
             </div>
             <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
@@ -150,26 +142,26 @@
     </div>
     <!-- /Steps -->
 
-    <!--(bake parts/case-studies.html)-->
+    <!--(bake parts/case-studies.php)-->
 
     <!-- Pages-pagination -->
     <div class="pages-pagination">
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-xs-6 prev-page">
-            <a href='/design' class="page-title pull-right">
-              Web design
+            <a href='/branding' class="page-title pull-right">
+              Branding
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/design/design_logo.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/branding/advertising_nav.png" alt="">
               </span>
             </a>
           </div>
           <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-            <a href='/seo' class="page-title pull-left">
+            <a href='/mobile-marketing' class="page-title pull-left">
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/seo/seo_logo.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/mob-marketing/marketing_logo.png" alt="">
               </span>
-              SEO
+              Mobile marketing
             </a>
           </div>
         </div>
@@ -179,6 +171,6 @@
 
   </main>
 
-  <!--(bake parts/footer.html)-->
+  <!--(bake parts/footer.php)-->
 </body>
 </html>

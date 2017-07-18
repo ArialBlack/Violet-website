@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Access denied | Violet</title>
+    <title>Page not found | Violet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-    <!--(bake parts/favicon.html)-->
+    <!--(bake parts/head.php)-->
 </head>
 <body class="thank-you-page">
-    <!--(bake parts/nav-and-header.html)-->
+    <!--(bake parts/nav-and-header.php)-->
 
     <main>
         <div class="container">
             <div class="thank-you-block">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1>Sorry, access denied</h1>
+                        <h1>Page not found</h1>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <!--(bake parts/footer.html)-->
+    <!--(bake parts/footer.php)-->
 </body>
 </html>
