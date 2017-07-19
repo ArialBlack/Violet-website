@@ -1,14 +1,8 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>SEO | Violet</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-  <!--(bake parts/head.php)-->
-</head>
+<?php
+$node = node_load(15);
+?>
+
+<!--(bake parts/head.php)-->
 
 <body class='typical-page seo'>
   <!--(bake parts/nav-and-header.php)-->
@@ -22,9 +16,9 @@
           <div class="page-logo opacity">
             <img src="/sites/all/themes/violet_ui/images/seo/seo_logo.png" alt="" class="jumb-logo">
           </div>
-          <h1 class="opacity">SEO</h1>
+          <h1 class="opacity"><?php print $node->title;?></h1>
           <p class='jumb-descr opacity'>
-            Your website search engine optimization is the key factor of successful online presence. Our job is to make it easy for your customers, and, on the other side, easier for Google algorithms to find your website. It is also essential that robots will see meta tags and sitemap, organized in a proper manner. 
+            <?php print $node->body['und'][0]['value']; ?>
           </p>
         </div>
       </div>
@@ -42,7 +36,7 @@
 
           <!-- Left main -->
           <div class='col-md-6 col-md-offset-1'>
-            <h2 class="opacity">Five steps to getting SEO done:</h2>
+            <h2 class="opacity"><?php print $node->body['und'][1]['value']; ?></h2>
             <div class="step-block">
               <div class='row'>
                 <div class='col-md-4'>
@@ -52,7 +46,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Analysis.</span> We analyze what, you have for the moment. Existing website, your competitors, all websites and portal in your niche.
+                    <?php print $node->body['und'][2]['value']; ?>
                   </p>
                 </div>
               </div>
@@ -67,7 +61,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">SOW for the website.</span> We create a statement of work - our written strategy with specific tasks and rules that should be implemented into the site, and your marketing strategy to succeed in the art of search engine optimization.  
+                    <?php print $node->body['und'][3]['value']; ?>
                   </p>
                 </div>
               </div>
@@ -82,7 +76,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Website optimization.</span> Our web developers are performing the tasks from SEO statement of work. We set meta tags, we close particular pages from the eyes of robots, we handle redirects, etc.  
+                    <?php print $node->body['und'][4]['value']; ?>
                   </p>
                 </div>
               </div>
@@ -97,7 +91,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Links strategy.</span> Links still matters. But you do not need to buy them. We know how to get the most relevant and robust links to make you rank higher. 
+                    <?php print $node->body['und'][5]['value']; ?>
                   </p>
                 </div>
               </div>
@@ -112,7 +106,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Content creation.</span> Content is the new king of the web. Algorithms are tracking the volume of proper words at your website. To show you in search exposure. We are creating the blog posts for corporate websites, product pages, and brands content projects. 
+                    <?php print $node->body['und'][6]['value']; ?>
                   </p>
                 </div>
               </div>
@@ -123,18 +117,18 @@
           <!-- Right-main -->
           <div class='col-md-4 col-md-offset-1'>
             <div class="marked-block">
-              <h2 class="opacity">How SEO evolved to these days:</h2>
+              <h2 class="opacity"><?php print $node->body['und'][7]['value']; ?></h2>
               <p class="opacity">
-                Firstly, it was easy. All that was needed to get your page highly ranked - more links to your website. So SEO specialists were just buying links. It was easy. 
+                <?php print $node->body['und'][8]['value']; ?>
               </p>
               <p class="opacity">
-                But, that led to mistakes and frauds in search extradition. So Google engines were rebuilt. From that moment the primary goal of these algorithms was to show internet user exactly the content, he is looking for. 
+                <?php print $node->body['und'][9]['value']; ?>
               </p>
               <p class="opacity">
-                Today, almost every quarter algorithms are changing, but, thankfully - not significant. Our job is to follow the changes and adapt your SEO impose to new rules, to make you the number one.
+                <?php print $node->body['und'][10]['value']; ?>
               </p> 
             </div>
-            <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
+            <a class="btn btn-dashed opacity" href="/contacts#contact-form"> <?php print t('Connect');?> </a>
           </div>
           <!-- /Right-main -->
         </div>
@@ -150,7 +144,7 @@
         <div class="row">
           <div class="col-sm-5 col-xs-6 prev-page">
             <a href='/mobile-marketing' class="page-title pull-right">
-              Mobile marketing
+              <?php print t('Mobile marketing');?>
               <span class="logo-page">
                 <img src="/sites/all/themes/violet_ui/images/mob-marketing/marketing_logo.png" alt="">
               </span>
@@ -161,7 +155,7 @@
               <span class="logo-page">
                 <img src="/sites/all/themes/violet_ui/images/smm/smm_logo.png" alt="">
               </span>
-              SMM
+              <?php print t('SMM');?>
             </a>
           </div>
         </div>

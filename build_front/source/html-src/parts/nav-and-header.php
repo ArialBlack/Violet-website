@@ -1,18 +1,18 @@
 <nav class="nav-main">
     <ul class="nav">
-        <li><a href="/about-company">Who we are</a></li>
-        <li><a href="/comps">What we do</a></li>
-        <li><a href="/contacts">Get in touch</a></li>
+        <li><a href="/about-company"><?php print t('Who we are');?></a></li>
+        <li><a href="/comps"><?php print t('What we do');?></a></li>
+        <li><a href="/contacts"><?php print t('Get in touch');?></a></li>
     </ul>
     <ul class="mobile-nav">
         <li>
             <span class='contact-item'>
-                <span>Phone&nbsp;:</span>&nbsp;<a href="tel:<?php print variable_get('violet_tel_num');?>"><?php print variable_get('violet_tel_text');?></a>
+                <span><?php print t('Phone');?>&nbsp;:</span>&nbsp;<a href="tel:<?php print variable_get('violet_tel_num');?>"><?php print variable_get('violet_tel_text');?></a>
             </span>
         </li>
         <li>
             <span class="contact-item">
-                <span>Skype&nbsp;:</span>&nbsp;<a href="skype:<?php print variable_get('violet_skype');?>"><?php print variable_get('violet_skype');?></a>
+                <span><?php print t('Skype');?>&nbsp;:</span>&nbsp;<a href="skype:<?php print variable_get('violet_skype');?>"><?php print variable_get('violet_skype');?></a>
             </span>
         </li>
         <li class="lang">
@@ -32,11 +32,11 @@
             <div class="col-md-5 col-sm-8 mob-to-burger">
                 <div class="contacts">
                         <span class='contact-item'>
-                            <span>Phone&nbsp;:</span>&nbsp;<a href="tel:<?php print variable_get('violet_tel_num');?>"><?php print variable_get('violet_tel_text');?></a>
+                            <span><?php print t('Phone');?>&nbsp;:</span>&nbsp;<a href="tel:<?php print variable_get('violet_tel_num');?>"><?php print variable_get('violet_tel_text');?></a>
                         </span>
                     <span class="devide-contacts">&nbsp; | &nbsp;</span>
                         <span class="contact-item">
-                            <span>Skype&nbsp;:</span>&nbsp;<a href="skype:<?php print variable_get('violet_skype');?>"><?php print variable_get('violet_skype');?></a>
+                            <span><?php print t('Skype');?>&nbsp;:</span>&nbsp;<a href="skype:<?php print variable_get('violet_skype');?>"><?php print variable_get('violet_skype');?></a>
                         </span>
                 </div>
             </div>

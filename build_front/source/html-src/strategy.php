@@ -155,7 +155,7 @@
             <a href='/advertising' class="page-title pull-right">
               Contextual advertising
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/branding/advertising_nav.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/branding/vertising_nav.png" alt="">
               </span>
             </a>
           </div>

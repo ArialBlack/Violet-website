@@ -1,14 +1,8 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Web Design | Violet</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-  <!--(bake parts/head.php)-->
-</head>
+<?php
+$node = node_load(10);
+?>
+
+<!--(bake parts/head.php)-->
 
 <body class='typical-page web-design'>
   <!--(bake parts/nav-and-header.php)-->
@@ -22,12 +16,9 @@
           <div class="page-logo opacity">
             <img src="/sites/all/themes/violet_ui/images/design/design_logo.png" alt="" class="jumb-logo">
           </div>
-          <h1 class="opacity">Web design and development</h1>
+          <h1 class="opacity"><?php print $node->title;?></h1>
           <p class='jumb-descr opacity'>
-            We design and build websites. <br>
-            We love clean, white, animated websites. <br>
-            But we also love colors and powerful emotions. <br>
-            What do you like?
+            <?php print $node->body['und'][0]['value']; ?>
           </p>
         </div>
       </div>
@@ -45,7 +36,7 @@
 
           <!-- Left main -->
           <div class='col-md-6 col-md-offset-1'>
-            <h2 class="opacity">How we create the websites:</h2>
+            <h2 class="opacity"><?php print $node->body['und'][1]['value']; ?></h2>
             <div class="step-block">
               <div class='row'>
                 <div class='col-md-4'>
@@ -55,7 +46,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Idea.</span> We listen to you. We gather a lot of references. References are the similar websites from all over the world. We are proposing you our approach and the way we will develop the website.
+                    <?php print $node->body['und'][2]['value']; ?>
                   </p>
                 </div>
               </div>
@@ -70,7 +61,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Statement of work.</span> All processes, technology, and tasks should be protocolled. Before we start the project, we need to know every step that will be performed. That is essential for successful deadline management.
+                    <?php print $node->body['und'][3]['value']; ?>
                   </p>
                 </div>
               </div>
@@ -85,7 +76,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Designs.</span> We start with scratches of almost all pages. UX is our primary focus because that is the main thing that brings leads and sales. Our UI expertise helps us create unique concepts and approaches.
+                    <?php print $node->body['und'][4]['value']; ?>
                   </p>
                 </div>
               </div>
@@ -100,7 +91,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Development.</span> We start with the back-end. It leaves some schedule space for the brand to play more with some designs issues. After the back end is ready, we proceed to the front-end page-proofs.
+                    <?php print $node->body['und'][5]['value']; ?>
                   </p>
                 </div>
               </div>
@@ -115,7 +106,7 @@
                 </div>
                 <div class='col-md-8'>
                   <p class='step-descr opacity'>
-                    <span class="step-title">Testing and support.</span> We always include the first year of free technical support in our proposal. We know that during these time you will strongly need our help and guidance. We are happy to be helpful.
+                    <?php print $node->body['und'][6]['value']; ?>
                   </p>
                 </div>
               </div>
@@ -126,15 +117,10 @@
           <!-- Right-main -->
           <div class='col-md-4 col-md-offset-1'>
             <div class="marked-block">
-              <h2 class="opacity">Know your client</h2>
-              <p class="opacity">
-                2017 is a year of mobile. We predict that this year will bring Mobile to the new high of technological and marketing development. More traffic will be mobile, more sales and leads will be generated through smartphones. We are ready for this.
-              </p>
-              <p class="opacity">
-                2018 can be the year of VR - we are preparing for this. We are growing our expertise in the field of virtual reality and artificial intelligence to be just in time with disruptive marketing technologies and new brand experience for your customers.
-              </p>
+              <h2 class="opacity"><?php print $node->body['und'][7]['value']; ?></h2>
+              <?php print $node->body['und'][8]['value']; ?>
             </div>
-            <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
+            <a class="btn btn-dashed opacity" href="/contacts#contact-form"> <?php print t('Connect');?> </a>
           </div>
           <!-- /Right-main -->
         </div>
@@ -150,9 +136,9 @@
         <div class="row">
           <div class="col-sm-5 col-xs-6 prev-page">
             <a href='/branding' class="page-title pull-right">
-              Branding
+              <?php print t('Branding');?>
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/branding/advertising_nav.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/branding/vertising_nav.png" alt="">
               </span>
             </a>
           </div>
@@ -161,7 +147,7 @@
               <span class="logo-page">
                 <img src="/sites/all/themes/violet_ui/images/mob-marketing/marketing_logo.png" alt="">
               </span>
-              Mobile marketing
+              <?php print t('Mobile marketing');?>
             </a>
           </div>
         </div>

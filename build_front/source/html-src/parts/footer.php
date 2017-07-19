@@ -9,17 +9,15 @@
             <div class="col-md-6 col-md-offset-1 col-sm-8">
                 <nav class="nav-footer">
                     <ul class="nav">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about-company">Who we are</a></li>
-                        <li><a href="/comps">What we do</a></li>
-                        <li><a href="/contacts">Get in touch</a></li>
+                        <li><a href="/"><?php print t('Home');?></a></li>
+                        <li><a href="/about-company"><?php print t('Who we are');?></a></li>
+                        <li><a href="/comps"><?php print t('What we do');?></a></li>
+                        <li><a href="/contacts"><?php print t('Get in touch');?></a></li>
                     </ul>
                 </nav>
 
                 <div class="copyright">
-                    <p>
-                        2016 &copy; All Rights Reserved.
-                    </p>
+                    <p><?php print variable_get('violet_copyrights'); ?></p>
                 </div>
             </div>
             <div class="col-md-2 col-sm-4 text-center">

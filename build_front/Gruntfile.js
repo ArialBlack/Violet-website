@@ -36,22 +36,28 @@ module.exports = function(grunt) {
 
                     "../themes/violet_ui/templates/html--node__8.tpl.php": "source/html-src/about-company.php", //ready
 
+                    "../themes/violet_ui/templates/html--node__9.tpl.php": "source/html-src/comps.php", //ready
+
+                    "../themes/violet_ui/templates/html--node__10.tpl.php": "source/html-src/design.php", //ready
+
+                    "../themes/violet_ui/templates/html--node__11.tpl.php": "source/html-src/fondexx.php", //ready
+
+                    "../themes/violet_ui/templates/html--node__12.tpl.php": "source/html-src/contacts.php", //ready
+
+                    "../themes/violet_ui/templates/html--node__13.tpl.php": "source/html-src/mail-marketing.php", //ready
+
+                    "../themes/violet_ui/templates/html--node__14.tpl.php": "source/html-src/mobile-marketing.php", //ready
+
+                    "../themes/violet_ui/templates/html--node__15.tpl.php": "source/html-src/seo.php", //ready
+
+                    "../themes/violet_ui/templates/html--node__16.tpl.php": "source/html-src/smm.php",  //ready
                     
-                    
-                    
+
                     "../themes/violet_ui/templates/html--node__4.tpl.php": "source/html-src/thank-you.php",
-
-
                     
                     
-                    "../themes/violet_ui/templates/html--node__9.tpl.php": "source/html-src/comps.php",
-                    "../themes/violet_ui/templates/html--node__10.tpl.php": "source/html-src/design.php",
-                    "../themes/violet_ui/templates/html--node__11.tpl.php": "source/html-src/fondexx.php",
-                    "../themes/violet_ui/templates/html--node__12.tpl.php": "source/html-src/contacts.php",
-                    "../themes/violet_ui/templates/html--node__13.tpl.php": "source/html-src/mail-marketing.php",
-                    "../themes/violet_ui/templates/html--node__14.tpl.php": "source/html-src/mobile-marketing.php",
-                    "../themes/violet_ui/templates/html--node__15.tpl.php": "source/html-src/seo.php",
-                    "../themes/violet_ui/templates/html--node__16.tpl.php": "source/html-src/smm.php",
+                    
+                    
                     "../themes/violet_ui/templates/html--node__17.tpl.php": "source/html-src/strategy.php",
                     "../themes/violet_ui/templates/html--node__18.tpl.php": "source/html-src/tax.php",
 

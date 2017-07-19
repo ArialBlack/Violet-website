@@ -1,16 +1,12 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>E-mail Marketing | Violet</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/sites/all/themes/violet_ui/css/style.css">
-  <!--(bake parts/head.php)-->
-</head>
+<?php
+$node = node_load(13);
+?>
+
+<!--(bake parts/head.php)-->
+
 <body class="typical-page mail-marketing">
-  <!--(bake parts/nav-and-header.php)-->
+
+<!--(bake parts/nav-and-header.php)-->
 
 <!-- Jumb -->
 <div class='jumb'>
@@ -21,12 +17,10 @@
         <div class="page-logo opacity">
           <img src="/sites/all/themes/violet_ui/images/mail-marketing/marketing_logo.png" alt="" class="jumb-logo">
         </div>
-        <h1 class="opacity">E-mail Marketing</h1>
-        <!--<p class='marked jumb-attention'>Dear sir,</p>-->
+        <h1 class="opacity"><?php print $node->title;?></h1>
         <p class='jumb-descr opacity'>
-          Emails are the essential part ofany business process. More formal than social media discourse, the language of emails shows your professionalism, your intelligence, and your culture. Email mar-keting is the unique technique, that can bring additional sales to your company. It holds your cli-ents more connected to your brand.
+          <?php print $node->body['und'][0]['value']; ?>
         </p>
-        <!--<p class='marked jumb-attention opacity'>Have a good day!</p>-->
       </div>
     </div>
     </div>
@@ -43,7 +37,7 @@
 
         <!-- Left main -->
         <div class='col-md-6 col-md-offset-1'>
-          <h2 class="opacity">5 steps to email marketing:</h2>
+          <h2 class="opacity"><?php print $node->body['und'][1]['value']; ?></h2>
           <div class="step-block">
             <div class='row'>
               <div class='col-md-4'>
@@ -53,7 +47,7 @@
               </div>
               <div class='col-md-8'>
                 <p class='step-descr opacity'>
-                  <span class="step-title">Technology.</span> Several online services help businesses manage emails. These services show the statistics of email opening, help to avoid spam filters, help to automatize the mass mailing.
+                  <?php print $node->body['und'][2]['value']; ?>
                 </p>
               </div>
             </div>
@@ -68,7 +62,7 @@
               </div>
               <div class='col-md-8'>
                 <p class='step-descr opacity'>
-                  <span class="step-title">Approach.</span> There are two common strategies: companies try to be or formal and strict, or friendly and charming. We love to be attractive and open-minded. 
+                  <?php print $node->body['und'][3]['value']; ?>
                 </p>
               </div>
             </div>
@@ -83,8 +77,7 @@
               </div>
               <div class='col-md-8'>
                 <p class='step-descr opacity'>
-                  <span class="step-title">Copywrite.</span> It is an extraordinary art of creating email texts. Sentence volumes, funny words, warmness, facts, main call to action - all should be perfectly packaged in your email. 
-
+                  <?php print $node->body['und'][4]['value']; ?>
                 </p>
               </div>
             </div>
@@ -99,7 +92,7 @@
               </div>
               <div class='col-md-8'>
                 <p class='step-descr opacity'>
-                  <span class="step-title">Design.</span> Corporate emails can be designed and filled with useful animation and even videos. It's convenient for you customer to get all content directly in his email account.
+                  <?php print $node->body['und'][5]['value']; ?>
                 </p>
               </div>
             </div>
@@ -114,7 +107,7 @@
               </div>
               <div class='col-md-8'>
                 <p class='step-descr opacity'>
-                  <span class="step-title">A/B testing and going live.</span> Having proper technologies on your side, we can easily perform several iterations on testing. It helps us to see what emails are opened more, what design sells, it helps collect useful data. And as we already know - modern marketing is all about data.
+                  <?php print $node->body['und'][6]['value']; ?>
                 </p>
               </div>
             </div>
@@ -125,16 +118,15 @@
         <!-- Right-main -->
         <div class='col-md-4 col-md-offset-1'>
           <div class="marked-block">
-            <h2 class="opacity">Personal brand strategy and emails: </h2>
+            <h2 class="opacity"><?php print $node->body['und'][7]['value']; ?> </h2>
             <p class="opacity">
-              Email marketing can become a powerful tool in the hands of skillful professional. We recommend using personal non-formal communication that goes directly from the CEO of your company. 
-              Such emails perform excellent work in b2b business, especially services and different types of consulting. Customers always appreciate when the enterprise's primary person addresses the email directly.
+              <?php print $node->body['und'][8]['value']; ?>
             </p>
             <p class="opacity">
-              But relaxed approach should not be unceremonious. Business emails should be warm, kind, pro-fessional and laconic. 
+              <?php print $node->body['und'][9]['value']; ?>
             </p>
           </div>
-          <a class="btn btn-dashed opacity" href="/contacts#contact-form"> Connect </a>
+          <a class="btn btn-dashed opacity" href="/contacts#contact-form"> <?php print t('Connect');?> </a>
         </div>
         <!-- /Right-main -->
       </div>
@@ -150,7 +142,7 @@
       <div class="row">
         <div class="col-sm-5 col-xs-6 prev-page">
           <a href='/smm' class="page-title pull-right">
-            SMM
+            <?php print t('SMM');?>
             <span class="logo-page">
               <img src="/sites/all/themes/violet_ui/images/smm/smm_logo.png" alt="">
             </span>
@@ -159,9 +151,9 @@
         <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
           <a href='/advertising' class="page-title pull-left">
             <span class="logo-page">
-              <img src="/sites/all/themes/violet_ui/images/branding/advertising_nav.png" alt="">
+              <img src="/sites/all/themes/violet_ui/images/branding/vertising_nav.png" alt="">
             </span>
-            Contextual advertising
+            <?php print t('Contextual advertising');?>
           </a>
         </div>
       </div>

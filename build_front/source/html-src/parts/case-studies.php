@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-11 col-md-offset-1">
-                <h2 class="opacity">Case studies </h2>
+                <h2 class="opacity"><?php print t('Case studies');?></h2>
             </div>
         </div>
 

@@ -22,5 +22,12 @@ function violet_admin_labels_form($form, &$form_state){
         '#default_value' => variable_get('violet_skype', 'violet.marketing'),
     );
 
+    $form['violet_copyrights'] = array(
+        '#type' => 'textfield',
+        '#title' => t('Skype'),
+        '#required' => TRUE,
+        '#default_value' => variable_get('violet_copyrights', '2016 © All Rights Reserved.'),
+    );
+    
     return system_settings_form($form);
 }
