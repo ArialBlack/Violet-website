@@ -1,9 +1,9 @@
 <?php
-$node = node_load(13);
+$node = node_load(33);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta charset="utf-8">
@@ -34,9 +34,9 @@ $node = node_load(13);
 
 <nav class="nav-main">
     <ul class="nav">
-        <li><a href="/about-company"><?php print t('Who we are');?></a></li>
-        <li><a href="/comps"><?php print t('What we do');?></a></li>
-        <li><a href="/contacts"><?php print t('Get in touch');?></a></li>
+        <li><a href="/ar/about-company"><?php print t('Who we are');?></a></li>
+        <li><a href="/ar/comps"><?php print t('What we do');?></a></li>
+        <li><a href="/ar/contacts"><?php print t('Get in touch');?></a></li>
     </ul>
     <ul class="mobile-nav">
         <li>
@@ -219,7 +219,7 @@ $node = node_load(13);
               <?php print $node->body['und'][9]['value']; ?>
             </p>
           </div>
-          <a class="btn btn-dashed opacity" href="/contacts#contact-form"> <?php print t('Connect');?> </a>
+          <a class="btn btn-dashed opacity" href="/ar/contacts#contact-form"> <?php print t('Connect');?> </a>
         </div>
         <!-- /Right-main -->
       </div>
@@ -239,7 +239,7 @@ $node = node_load(13);
           <div class="case-blocks">
               <div class="row">
                   <div class="col-sm-4">
-                      <a href="/tax">
+                      <a href="/ar/tax">
                           <div class="case-resize">
                               <img src="/sites/all/themes/violet_ui/images/branding/eagle_case.jpg" alt="">
                           </div>
@@ -249,14 +249,14 @@ $node = node_load(13);
                 </svg>
                   </div>
                   <div class="col-sm-4">
-                      <a href="/fondexx">
+                      <a href="/ar/fondexx">
                           <div class="case-resize">
                               <img src="/sites/all/themes/violet_ui/images/branding/th_case.jpg" alt="">
                           </div>
                       </a>
                   </div>
                   <div class="col-sm-4">
-                      <a href="/cfc">
+                      <a href="/ar/cfc">
                           <div class="case-resize">
                               <img src="/sites/all/themes/violet_ui/images/branding/cfc_case.jpg" alt="">
                           </div>
@@ -273,7 +273,7 @@ $node = node_load(13);
     <div class="container">
       <div class="row">
         <div class="col-sm-5 col-xs-6 prev-page">
-          <a href='/smm' class="page-title pull-right">
+          <a href='/ar/smm' class="page-title pull-right">
             <?php print t('SMM');?>
             <span class="logo-page">
               <img src="/sites/all/themes/violet_ui/images/smm/smm_logo.png" alt="">
@@ -281,7 +281,7 @@ $node = node_load(13);
           </a>
         </div>
         <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-          <a href='/advertising' class="page-title pull-left">
+          <a href='/ar/advertising' class="page-title pull-left">
             <span class="logo-page">
               <img src="/sites/all/themes/violet_ui/images/branding/vertising_nav.png" alt="">
             </span>
@@ -300,16 +300,16 @@ $node = node_load(13);
           <div class="row">
               <div class="col-md-2 col-sm-12">
                   <div class="logo text-center">
-                      <a href="/"> <img src="/sites/all/themes/violet_ui/images/main/logo.png" alt=""></a>
+                      <a href="/ar"> <img src="/sites/all/themes/violet_ui/images/main/logo.png" alt=""></a>
                   </div>
               </div>
               <div class="col-md-6 col-md-offset-1 col-sm-8">
                   <nav class="nav-footer">
                       <ul class="nav">
-                          <li><a href="/"><?php print t('Home');?></a></li>
-                          <li><a href="/about-company"><?php print t('Who we are');?></a></li>
-                          <li><a href="/comps"><?php print t('What we do');?></a></li>
-                          <li><a href="/contacts"><?php print t('Get in touch');?></a></li>
+                          <li><a href="/ar"><?php print t('Home');?></a></li>
+                          <li><a href="/ar/about-company"><?php print t('Who we are');?></a></li>
+                          <li><a href="/ar/comps"><?php print t('What we do');?></a></li>
+                          <li><a href="/ar/contacts"><?php print t('Get in touch');?></a></li>
                       </ul>
                   </nav>
 

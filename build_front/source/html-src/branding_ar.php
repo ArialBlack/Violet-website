@@ -1,11 +1,11 @@
 <?php
-$node = node_load(6);
+$node = node_load(24);
 ?>
 
-<!--(bake parts/head.php)-->
+<!--(bake parts/head-ar.php)-->
 
 <body class="typical-page branding">
-<!--(bake parts/nav-and-header.php)-->
+<!--(bake parts/nav-and-header-ar.php)-->
 
 <!-- Jumb -->
 <div class='jumb'>
@@ -129,7 +129,7 @@ $node = node_load(6);
   </div>
   <!-- /Steps -->
 
-  <!--(bake parts/case-studies.php)-->
+  <!--(bake parts/case-studies-ar.php)-->
 
   <!-- Pages-pagination -->
   <div class="pages-pagination">
@@ -158,6 +158,6 @@ $node = node_load(6);
 
 </main>
 
-<!--(bake parts/footer.php)-->
+<!--(bake parts/footer-ar.php)-->
 </body>
 </html>

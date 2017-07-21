@@ -1,11 +1,12 @@
 <?php
-$node = node_load(6);
+$node = node_load(33);
 ?>
 
-<!--(bake parts/head.php)-->
+<!--(bake parts/head-ar.php)-->
 
-<body class="typical-page branding">
-<!--(bake parts/nav-and-header.php)-->
+<body class="typical-page mail-marketing">
+
+<!--(bake parts/nav-and-header-ar.php)-->
 
 <!-- Jumb -->
 <div class='jumb'>
@@ -14,7 +15,7 @@ $node = node_load(6);
     <div class="row">
       <div class="col-md-11 col-md-offset-1">
         <div class="page-logo opacity">
-          <img src="/sites/all/themes/violet_ui/images/branding/branding_logo.png" alt="" class="jumb-logo">
+          <img src="/sites/all/themes/violet_ui/images/mail-marketing/marketing_logo.png" alt="" class="jumb-logo">
         </div>
         <h1 class="opacity"><?php print $node->title;?></h1>
         <p class='jumb-descr opacity'>
@@ -22,9 +23,10 @@ $node = node_load(6);
         </p>
       </div>
     </div>
-  </div>
+    </div>
   </div>
 </div>
+<!-- /Jumb -->
 
 <main>
   <!-- Steps -->
@@ -116,12 +118,15 @@ $node = node_load(6);
         <!-- Right-main -->
         <div class='col-md-4 col-md-offset-1'>
           <div class="marked-block">
-            <h2 class="opacity"><?php print $node->body['und'][7]['value']; ?></h2>
-            <p class="opacity"><?php print $node->body['und'][8]['value']; ?></p>
-            <p class="opacity"><?php print $node->body['und'][9]['value']; ?></p>
-            <p class="opacity"><?php print $node->body['und'][10]['value']; ?></p>
+            <h2 class="opacity"><?php print $node->body['und'][7]['value']; ?> </h2>
+            <p class="opacity">
+              <?php print $node->body['und'][8]['value']; ?>
+            </p>
+            <p class="opacity">
+              <?php print $node->body['und'][9]['value']; ?>
+            </p>
           </div>
-          <a class="btn btn-dashed opacity" href="/contacts#contact-form"> <?php print t('Connect');?> </a>
+          <a class="btn btn-dashed opacity" href="/ar/contacts#contact-form"> <?php print t('Connect');?> </a>
         </div>
         <!-- /Right-main -->
       </div>
@@ -129,26 +134,26 @@ $node = node_load(6);
   </div>
   <!-- /Steps -->
 
-  <!--(bake parts/case-studies.php)-->
+  <!--(bake parts/case-studies-ar.php)-->
 
   <!-- Pages-pagination -->
   <div class="pages-pagination">
     <div class="container">
       <div class="row">
         <div class="col-sm-5 col-xs-6 prev-page">
-          <a href='/strategy' class="page-title pull-right">
-            <?php print t('Marketing Strategy');?>
+          <a href='/ar/smm' class="page-title pull-right">
+            <?php print t('SMM');?>
             <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/strategy/strategy_logo.png" alt="">
-              </span>
+              <img src="/sites/all/themes/violet_ui/images/smm/smm_logo.png" alt="">
+            </span>
           </a>
         </div>
         <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-          <a href='/design' class="page-title pull-left">
-              <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/design/design_logo.png" alt="">
-              </span>
-            <?php print t('Web design');?>
+          <a href='/ar/advertising' class="page-title pull-left">
+            <span class="logo-page">
+              <img src="/sites/all/themes/violet_ui/images/branding/vertising_nav.png" alt="">
+            </span>
+            <?php print t('Contextual advertising');?>
           </a>
         </div>
       </div>
@@ -158,6 +163,6 @@ $node = node_load(6);
 
 </main>
 
-<!--(bake parts/footer.php)-->
+  <!--(bake parts/footer-ar.php)-->
 </body>
 </html>

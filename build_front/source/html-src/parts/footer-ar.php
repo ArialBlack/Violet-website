@@ -3,16 +3,16 @@
         <div class="row">
             <div class="col-md-2 col-sm-12">
                 <div class="logo text-center">
-                    <a href="/"> <img src="/sites/all/themes/violet_ui/images/main/logo.png" alt=""></a>
+                    <a href="/ar"> <img src="/sites/all/themes/violet_ui/images/main/logo.png" alt=""></a>
                 </div>
             </div>
             <div class="col-md-6 col-md-offset-1 col-sm-8">
                 <nav class="nav-footer">
                     <ul class="nav">
-                        <li><a href="/"><?php print t('Home');?></a></li>
-                        <li><a href="/about-company"><?php print t('Who we are');?></a></li>
-                        <li><a href="/comps"><?php print t('What we do');?></a></li>
-                        <li><a href="/contacts"><?php print t('Get in touch');?></a></li>
+                        <li><a href="/ar"><?php print t('Home');?></a></li>
+                        <li><a href="/ar/about-company"><?php print t('Who we are');?></a></li>
+                        <li><a href="/ar/comps"><?php print t('What we do');?></a></li>
+                        <li><a href="/ar/contacts"><?php print t('Get in touch');?></a></li>
                     </ul>
                 </nav>
 

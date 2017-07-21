@@ -1,0 +1,67 @@
+<nav class="nav-main">
+    <ul class="nav">
+        <li><a href="/ar/about-company"><?php print t('Who we are');?></a></li>
+        <li><a href="/ar/comps"><?php print t('What we do');?></a></li>
+        <li><a href="/ar/contacts"><?php print t('Get in touch');?></a></li>
+    </ul>
+    <ul class="mobile-nav">
+        <li>
+            <span class='contact-item'>
+                <span><?php print t('Phone');?>&nbsp;:</span>&nbsp;<a href="tel:<?php print variable_get('violet_tel_num');?>"><?php print variable_get('violet_tel_text');?></a>
+            </span>
+        </li>
+        <li>
+            <span class="contact-item">
+                <span><?php print t('Skype');?>&nbsp;:</span>&nbsp;<a href="skype:<?php print variable_get('violet_skype');?>"><?php print variable_get('violet_skype');?></a>
+            </span>
+        </li>
+        <li class="lang">
+          <a href="/">English</a> <span class="divide">/</span> <a href="/arabic">Arabic</a>
+        </li>
+    </ul>
+    <div class="bubble-animation"></div>
+    <div class="burger-button">
+        <span class='rot-left'></span>
+        <span class='rot-right'></span>
+        <span class='active-disable'></span>
+    </div>
+</nav>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-8 mob-to-burger">
+                <div class="contacts">
+                        <span class='contact-item'>
+                            <span><?php print t('Phone');?>&nbsp;:</span>&nbsp;<a href="tel:<?php print variable_get('violet_tel_num');?>"><?php print variable_get('violet_tel_text');?></a>
+                        </span>
+                    <span class="devide-contacts">&nbsp; | &nbsp;</span>
+                        <span class="contact-item">
+                            <span><?php print t('Skype');?>&nbsp;:</span>&nbsp;<a href="skype:<?php print variable_get('violet_skype');?>"><?php print variable_get('violet_skype');?></a>
+                        </span>
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="/" class="clients">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 283.5 283.5" style="enable-background:new 0 0 283.5 283.5;" xml:space="preserve"  class="svg-header-logo">
+                            <path d="M185.2,50.2l-42.3,80.3L96.8,50.2H43.2v53.1l74.4,129.4h53l68-129.2l0.2-0.3v-53H185.2z M236.1,101.6h-48.8V52.9h48.8V101.6  z M143,136.1l24.5,42.7h-48.2l-22.1-76V56.5L143,136.1L143,136.1z M184.7,102.8l-15.4,73.6l-24.8-43.1l40.2-76.4V102.8z M95,104.3  l22.1,76v46.3L46.8,104.3H95z M119.7,181.4h48.8v48.8h-48.8V181.4z M171.2,180.2l15.9-75.9h48.2l-64.1,121.8V180.2z M94.7,52.9v48.8  H45.9V52.9H94.7z"/>
+                        </svg>
+                </a>
+            </div>
+            <div class="col-md-3 col-md-offset-2 col-sm-4 mob-to-burger">
+                <div class="lang">
+                  <a href="/">English</a> <span class="divide"></span> <a href="/arabic">Arabic</a>
+                </div>
+            </div>
+        </div>
+        <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="burger-content text-center">
+            <div class="row">
+                <!-- Here content -->
+            </div>
+        </div>
+    </div>
+</header>

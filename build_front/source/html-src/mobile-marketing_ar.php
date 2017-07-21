@@ -1,11 +1,11 @@
 <?php
-$node = node_load(17);
+$node = node_load(34);
 ?>
 
-<!--(bake parts/head.php)-->
+<!--(bake parts/head-ar.php)-->
 
-<body class='typical-page strategy'>
-  <!--(bake parts/nav-and-header.php)-->
+<body class='typical-page mobile-marketing'>
+  <!--(bake parts/nav-and-header-ar.php)-->
 
   <!-- Jumb -->
   <div class='jumb'>
@@ -14,7 +14,7 @@ $node = node_load(17);
       <div class="row">
         <div class="col-md-11 col-md-offset-1">
           <div class="page-logo opacity">
-            <img src="/sites/all/themes/violet_ui/images/strategy/strategy_logo.png" alt="" class="jumb-logo">
+            <img src="/sites/all/themes/violet_ui/images/mob-marketing/marketing_logo.png" alt="" class="jumb-logo">
           </div>
           <h1 class="opacity"><?php print $node->title;?></h1>
           <p class='jumb-descr opacity'>
@@ -124,14 +124,17 @@ $node = node_load(17);
               <p class="opacity">
                 <?php print $node->body['und'][9]['value']; ?>
               </p>
-              <p class="opacity">
+              <p class="notice opacity">
                 <?php print $node->body['und'][10]['value']; ?>
               </p>
               <p class="opacity">
                 <?php print $node->body['und'][11]['value']; ?>
               </p>
+              <p class="opacity">
+                <?php print $node->body['und'][12]['value']; ?>
+              </p>
             </div>
-            <a class="btn btn-dashed opacity" href="/contacts#contact-form"> <?php print t('Connect');?> </a>
+            <a class="btn btn-dashed opacity" href="/ar/contacts#contact-form"> <?php print t('Connect');?> </a>
           </div>
           <!-- /Right-main -->
         </div>
@@ -139,32 +142,33 @@ $node = node_load(17);
     </div>
     <!-- /Steps -->
 
-    <!--(bake parts/case-studies.php)-->
+    <!--(bake parts/case-studies-ar.php)-->
 
     <!-- Pages-pagination -->
     <div class="pages-pagination">
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-xs-6 prev-page">
-            <a href='/advertising' class="page-title pull-right">
-              <?php print t('Contextual advertising');?>
+            <a href='/ar/design' class="page-title pull-right">
+              <?php print t('Web design');?>
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/branding/vertising_nav.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/design/design_logo.png" alt="">
               </span>
             </a>
           </div>
           <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-            <a href='/branding' class="page-title pull-left">
+            <a href='/ar/seo' class="page-title pull-left">
               <span class="logo-page">
-                <img src="/sites/all/themes/violet_ui/images/branding/branding_nav.png" alt="">
+                <img src="/sites/all/themes/violet_ui/images/seo/seo_logo.png" alt="">
               </span>
-              <?php print t('Branding');?>
+              <?php print t('SEO');?>
             </a>
           </div>
         </div>
       </div>
     </div>
     <!-- /Pages-pagination -->
+
   </main>
 
   <!--(bake parts/footer.php)-->

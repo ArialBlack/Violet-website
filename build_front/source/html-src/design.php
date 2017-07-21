@@ -118,7 +118,8 @@ $node = node_load(10);
           <div class='col-md-4 col-md-offset-1'>
             <div class="marked-block">
               <h2 class="opacity"><?php print $node->body['und'][7]['value']; ?></h2>
-              <?php print $node->body['und'][8]['value']; ?>
+              <p class="opacity"><?php print $node->body['und'][8]['value']; ?></p>
+              <p class="opacity"><?php print $node->body['und'][9]['value']; ?></p>
             </div>
             <a class="btn btn-dashed opacity" href="/contacts#contact-form"> <?php print t('Connect');?> </a>
           </div>

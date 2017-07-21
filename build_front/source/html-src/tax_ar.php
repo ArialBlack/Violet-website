@@ -1,11 +1,11 @@
 <?php
-$node = node_load(18);
+$node = node_load(38);
 ?>
 
-<!--(bake parts/head.php)-->
+<!--(bake parts/head-ar.php)-->
 
 <body class='tax'>
-    <!--(bake parts/nav-and-header.php)-->
+    <!--(bake parts/nav-and-header-ar.php)-->
 
     <main>
         <!-- tax-block-0 Head -->
@@ -275,12 +275,12 @@ $node = node_load(18);
                             </div>
                         </div>
                         <div class="col-xs-5 prev-page">
-                            <a href='/cfc' class="page-title pull-right">
+                            <a href='/ar/cfc' class="page-title pull-right">
                                 <?php print t('cfc');?>
                             </a>
                         </div>
                         <div class="col-xs-5 col-xs-offset-2 next-page">
-                            <a href='/fondexx' class="page-title pull-left">
+                            <a href='/ar/fondexx' class="page-title pull-left">
                                 <?php print t('fondexx');?>
                             </a>
                         </div>
@@ -293,6 +293,6 @@ $node = node_load(18);
         <!-- /tax-block-2 -->
     </main>
 
-    <!--(bake parts/footer.php)-->
+    <!--(bake parts/footer-ar.php)-->
 </body>
 </html>

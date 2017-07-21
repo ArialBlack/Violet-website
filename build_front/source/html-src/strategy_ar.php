@@ -1,11 +1,11 @@
 <?php
-$node = node_load(17);
+$node = node_load(37);
 ?>
 
-<!--(bake parts/head.php)-->
+<!--(bake parts/head-ar.php)-->
 
 <body class='typical-page strategy'>
-  <!--(bake parts/nav-and-header.php)-->
+  <!--(bake parts/nav-and-header-ar.php)-->
 
   <!-- Jumb -->
   <div class='jumb'>
@@ -131,7 +131,7 @@ $node = node_load(17);
                 <?php print $node->body['und'][11]['value']; ?>
               </p>
             </div>
-            <a class="btn btn-dashed opacity" href="/contacts#contact-form"> <?php print t('Connect');?> </a>
+            <a class="btn btn-dashed opacity" href="/ar/contacts#contact-form"> <?php print t('Connect');?> </a>
           </div>
           <!-- /Right-main -->
         </div>
@@ -139,14 +139,14 @@ $node = node_load(17);
     </div>
     <!-- /Steps -->
 
-    <!--(bake parts/case-studies.php)-->
+    <!--(bake parts/case-studies-ar.php)-->
 
     <!-- Pages-pagination -->
     <div class="pages-pagination">
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-xs-6 prev-page">
-            <a href='/advertising' class="page-title pull-right">
+            <a href='/ar/advertising' class="page-title pull-right">
               <?php print t('Contextual advertising');?>
               <span class="logo-page">
                 <img src="/sites/all/themes/violet_ui/images/branding/vertising_nav.png" alt="">
@@ -154,7 +154,7 @@ $node = node_load(17);
             </a>
           </div>
           <div class="col-sm-5 col-xs-6 col-sm-offset-2 next-page">
-            <a href='/branding' class="page-title pull-left">
+            <a href='/ar/branding' class="page-title pull-left">
               <span class="logo-page">
                 <img src="/sites/all/themes/violet_ui/images/branding/branding_nav.png" alt="">
               </span>
@@ -167,6 +167,6 @@ $node = node_load(17);
     <!-- /Pages-pagination -->
   </main>
 
-  <!--(bake parts/footer.php)-->
+  <!--(bake parts/footer-ar.php)-->
 </body>
 </html>

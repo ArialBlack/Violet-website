@@ -1,11 +1,11 @@
 <?php
-$node = node_load(4);
+$node = node_load(31);
 ?>
 
-<!--(bake parts/head.php)-->
+<!--(bake parts/head-ar.php)-->
 
 <body class="thank-you-page">
-    <!--(bake parts/nav-and-header.php)-->
+    <!--(bake parts/nav-and-header-ar.php)-->
 
     <main>
         <div class="container">
@@ -20,6 +20,6 @@ $node = node_load(4);
         </div>
     </main>
 
-    <!--(bake parts/footer.php)-->
+    <!--(bake parts/footer-ar.php)-->
 </body>
 </html>
